@@ -1,0 +1,15 @@
+scale	mesh_mode	p	P	theta	n_elements	common_L2_error	common_relative_L2_error	validation_time_s	status	log_file
+L2	adaptive	16	4	0.7	1032	0.00446142044667	0.0331939747676	21.550584346	0	experiment_results/balanced_common_validation/adaptive_L2_p16_P4_theta0p7.log
+L2	uniform	16	4	0.7	1536	0.00445993540159	0.0331829256971	15.802062081	0	experiment_results/balanced_common_validation/uniform_L2_p16_P4_theta0p7.log
+L3	adaptive	16	8	0.7	10496	0.000445542360465	0.00331493569099	31.053932203	0	experiment_results/balanced_common_validation/adaptive_L3_p16_P8_theta0p7.log
+L3	uniform	16	8	0.7	12288	0.00044559185023	0.00331530390601	29.20655291	0	experiment_results/balanced_common_validation/uniform_L3_p16_P8_theta0p7.log
+L4	adaptive	8	8	0.7	100432	8.37339998453e-05	0.000622999852015	20.687616614	0	experiment_results/balanced_common_validation/adaptive_L4_p8_P8_theta0p7.log
+L4	uniform	8	8	0.7	98304	0.000700057390236	0.00520858493951	20.571418601	0	experiment_results/balanced_common_validation/uniform_L4_p8_P8_theta0p7.log
+L5	adaptive	6	6	0.5	823672	0.000268212422386	0.00199556094016	31.992836021	0	experiment_results/balanced_common_validation/adaptive_L5_p6_P6_theta0p5.log
+L5	uniform	6	6	0.5	786432	0.000158991147222	0.00118293000901	31.825351669	0	experiment_results/balanced_common_validation/uniform_L5_p6_P6_theta0p5.log
+L4	uniform	12	8	0.7	98304	0.00011466826906	0.000853157794767	27.202952313	0	experiment_results/balanced_common_validation/uniform_L4_p12_P8_theta0p7.log
+L4	uniform	16	8	0.7	98304	7.14331075395e-05	0.000531478437771	46.665811943	0	experiment_results/balanced_common_validation/uniform_L4_p16_P8_theta0p7.log
+L5	adaptive	8	6	0.5	823672	9.07039946688e-05	0.000674858186164	40.475631379	0	experiment_results/balanced_common_validation/adaptive_L5_p8_P6_theta0p5.log
+L5	adaptive	8	8	0.7	823672	0.00013283028304	0.000988287276734	28.77866082	0	experiment_results/balanced_common_validation/adaptive_L5_p8_P8_theta0p7.log
+L5	uniform	8	6	0.5	786432	5.94474473593e-05	0.000442302421668	39.543875573	0	experiment_results/balanced_common_validation/uniform_L5_p8_P6_theta0p5.log
+L5	uniform	8	8	0.7	786432	0.000106209779044	0.000790224720534	28.649979119	0	experiment_results/balanced_common_validation/uniform_L5_p8_P8_theta0p7.log

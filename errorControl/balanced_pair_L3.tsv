@@ -1,0 +1,3 @@
+mesh_mode	repeat	global_level	p	P	theta	n_elements	T_list_s	T_moment_s	T_eval_s	T_total_s	L2_norm_exact	L2_error	relative_L2_error	threads	status	log_file
+adaptive	1	0	4	4	0.5	10496	0.103330202400684	0.0122186718508601	0.0942197181284	0.421264374629	0.0196068352803	0.231238546505	11.7937720799	128	0	experiment_results/balanced_uniform_adaptive/L3/adaptive_level0_p4_P4_theta0.5_r1.log
+uniform	1	3	4	4	0.5	12288	0.121993175707757	0.0495482254773378	0.105379216373	0.492282622494	0.0196068352803	0.23124191664	11.7939439656	128	0	experiment_results/balanced_uniform_adaptive/L3/uniform_level3_p4_P4_theta0.5_r1.log

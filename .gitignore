@@ -1,0 +1,61 @@
+# Local application settings and credentials
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+!.env.example
+
+# Compiled files
+*.o
+*.a
+*.so
+__pycache__/
+*.pyc
+/tr
+/main
+**/tr
+**/tr2
+**/tree
+**/tree_gpu
+**/tree_exact
+**/tree_exact_gpu
+**/tree_h2o
+**/tree_mesh_modes
+**/tree_reference
+**/tree_reuse
+**/tree_uniform
+**/tree_uniform_reference
+**/uni2
+**/local_quadrature_test
+**/multipole_test
+
+# Large generated data and experiment outputs
+*.bin
+*.mp
+*.dx
+neighbor_elements.txt
+gd_neighbor_elements.txt
+neighbor_list_volumes.csv
+experiment_results/
+archive/
+
+# Document build intermediates
+*.aux
+*.log
+*.blg
+*.toc
+*.nav
+*.snm
+*.out
+*.markdown.lua
+_markdown*/
+_single_math/
+_residual_controlled_multirate_hartree_math/
+
+# Local backups and generated workspace inventory
+*.orig
+/CATALOG.html
+
+# Preserved pre-migration Git metadata (local only)
+/.local-history/

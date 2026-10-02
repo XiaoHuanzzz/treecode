@@ -1,0 +1,9 @@
+scale	mesh_mode	p	P	theta	n_elements	T_list_s	T_moment_s	T_eval_s	T_total_s	native_L2_error	status	log_file
+L2	adaptive	16	4	0.7	1032	0.0595099115744233	0.0140650849789381	0.0681522693485	0.297202213667	0.00346220941466	0	experiment_results/balanced_final_production/adaptive_L2_p16_P4_theta0p7.log
+L2	uniform	16	4	0.7	1536	0.0225283149629831	0.0158964795991778	0.0640253704041	0.296832309105	0.00346340377383	0	experiment_results/balanced_final_production/uniform_L2_p16_P4_theta0p7.log
+L3	adaptive	16	8	0.7	10496	0.0768538061529398	0.138752670958638	0.63080697041	1.34230891988	8.28610998762e-05	0	experiment_results/balanced_final_production/adaptive_L3_p16_P8_theta0p7.log
+L3	uniform	16	8	0.7	12288	0.0789227159693837	0.150907172821462	0.641756197438	1.4175892137	8.31064150322e-05	0	experiment_results/balanced_final_production/uniform_L3_p16_P8_theta0p7.log
+L4	adaptive	8	8	0.7	100432	1.01073278393596	0.395816053263843	2.73253895529	6.69349508919	8.22998379691e-05	0	experiment_results/balanced_final_production/adaptive_L4_p8_P8_theta0p7.log
+L4	uniform	16	8	0.7	98304	0.876280530355871	2.03910834342241	10.0355485156	16.9803929934	6.03890400696e-05	0	experiment_results/balanced_final_production/uniform_L4_p16_P8_theta0p7.log
+L5	adaptive	8	6	0.5	823672	8.55470210593194	3.08579179737717	37.1372056333	67.9262926988	3.05784631772e-05	0	experiment_results/balanced_final_production/adaptive_L5_p8_P6_theta0p5.log
+L5	uniform	8	6	0.5	786432	7.85538980364799	2.48885098006576	34.0349468915	65.8349493491	5.94474473593e-05	0	experiment_results/balanced_final_production/uniform_L5_p8_P6_theta0p5.log
