@@ -1,3 +1,0 @@
-mesh_mode	repeat	global_level	p	P	theta	n_elements	T_list_s	T_moment_s	T_eval_s	T_total_s	L2_norm_exact	L2_error	relative_L2_error	threads	status	log_file
-adaptive	1	0	8	8	0.5	823672	9.16832028701901	4.13203511759639	65.2259049499	97.2509549893	0.134326563889	1.23670357687e-05	9.20669405264e-05	128	0	experiment_results/balanced_uniform_adaptive/L5/adaptive_level0_p8_P8_theta0.5_r1.log
-uniform	1	5	8	8	0.5	786432	6.65608682762831	3.56101782806218	60.7888064869	90.8709460609	0.13440452606	5.25091527332e-05	0.00039067994414	128	0	experiment_results/balanced_uniform_adaptive/L5/uniform_level5_p8_P8_theta0.5_r1.log

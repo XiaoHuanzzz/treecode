@@ -1,1 +1,0 @@
-p   P   theta   n_elements  filling_neighbor_time_s   potential_evaluation_time_s   L2_error                relative_L2_error       total_time_s        omp_threads
