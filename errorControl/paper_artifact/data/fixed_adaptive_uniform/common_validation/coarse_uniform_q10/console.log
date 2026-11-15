@@ -1,0 +1,148 @@
+Configuration: initial_refinements=3, quadrature_accuracy=6, expansion_order=4, theta=0.5, backend=CPU, mesh=uniform, comparison=analytic exact solution
+Reading in mesh data file /home/hxiao/treecode/errorControl/experiment_results/fixed_adaptive_uniform_20261109/D20.mesh as geometry tree root ...
+	# points: 14
+	# 1D-geometry: 49
+	# 2D-geometry: 60
+	# 3D-geometry: 24
+Constructing the root mesh from hierarchy geometry tree ...
+	constructing elements ... OK!
+Semiregularizing the mesh ...  -OK!
+	0 elements refined in semiregularization.
+Generating regular mesh from the semiregular mesh ...
+	preparing data ...
+	building the regular mesh ...
+	nodes: 14; edges: 49; surface: 60; elements: 24 (24, 0, 0)
+Global refine the mesh ...
+
+	round 1 ...
+	round 2 ...
+	round 3 ...
+Semiregularizing the mesh ...  -OK!
+	0 elements refined in semiregularization.
+Generating regular mesh from the semiregular mesh ...
+	preparing data ...
+	building the regular mesh ...
+	nodes: 2457; edges: 15512; surface: 25344; elements: 12288 (12288, 0, 0)
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.tmp_geo
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.tmp_geo
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.1.tmp_dof
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.1.tmp_dof
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.crd_trs
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.crd_trs
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.1.bas_fun
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.1.bas_fun
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.out_nrm
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.out_nrm
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.tmp_geo
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.tmp_geo
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.1.tmp_dof
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.1.tmp_dof
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.crd_trs
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.crd_trs
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.1.bas_fun
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.1.bas_fun
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.out_nrm
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.out_nrm
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.tmp_geo
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.tmp_geo
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.1.tmp_dof
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.1.tmp_dof
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.crd_trs
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.crd_trs
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.1.bas_fun
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.1.bas_fun
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.out_nrm
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.out_nrm
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so: success
+Building degree of freedom for the FEM space ...
+	total 2457 degree of freedom found.
+Semiregularizing the mesh ...  -OK!
+	0 elements refined in semiregularization.
+Generating regular mesh from the semiregular mesh ...
+	preparing data ...
+	building the regular mesh ...
+	nodes: 2457; edges: 15512; surface: 25344; elements: 12288 (12288, 0, 0)
+Building degree of freedom for the FEM space ...
+	total 2457 degree of freedom found.
+There are total 2457 nodes
+OpenMP maximum threads: 128
+Mapping built: 14040 elements
+Starting parallel processing with at most 128 OpenMP threads for 14040 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 128
+Validated 12288 disjoint source-tree partitions over truncated-domain volume 64000.0000000115; max MAC ratio=0.5, near entries min/avg/max=74/272.66064453125/362, far entries min/avg/max=454/1346.01831054688/2292, visited nodes avg=1788.74853515625, near volume min/avg/max=385.416666666667/1420.10752360026/1885.41666666667; max partition-volume error=1.14934515238474e-08
+Neighbor preprocessing timing: mapping/geometry=0.0595325510948896 seconds, hierarchy validation=0.00382846035063267 seconds, MAC construction=0.188828011974692 seconds, aggregate validation=0.00153989903628826 seconds
+Parallel processing completed!
+There are total 14040 hElements
+Filling neighbor_elements uses: 0.188828011974692 seconds
+Code-owned local quadrature: algebraic accuracy=6, elements(tetra/twin/four)=12288/0/0, total points=983040
+Gaussian quadrature mesh volume: 64000.0000000115
+Target-element singular integration: closed-form constant-density tetrahedron potential plus Duffy quadrature of the density remainder
+Updating multipoleInfo uses 0.0166093427687883 seconds
+Cartesian multipole order 4: 35 symmetric coefficients/cluster, 3.74908447265625 MiB of moment values
+Exact-comparison leaf barycenters: 12288
+Leaf-barycenter target volume: 64000
+Exact solution: exp(-4*pi*x^2-8*pi*y^2-12*pi*z^2)
+L2 norm of exact solution: 1.61867925061e-23
+L2 norm of treecode solution: 5.54164418595
+L2 error against exact solution: 5.54164418595
+Relative L2 error against exact solution: 3.42355916643e+23
+Exact-comparison evaluation time: 0.189619665965 seconds
+Potential evaluation time: 0.188384087756 seconds
+Common-target count: 343000
+Common-target weight sum: 64000
+Common-target L2 norm of exact solution: 0.133708872729
+Common-target L2 error against exact solution: 5.64745466989
+Common-target relative L2 error: 42.2369477406
+Common-target validation time: 4.44721809775 seconds
+Appended execution timings to results_uniform.txt
+Total execution time: 0.791112285107 seconds

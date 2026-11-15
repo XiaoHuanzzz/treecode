@@ -1,0 +1,46 @@
+{
+  "completed": true,
+  "finished_utc": "2026-10-20T08:26:29.745258+00:00",
+  "key": {
+    "command": [
+      "/home/hxiao/treecode/errorControl/tree_water10",
+      "/home/hxiao/treecode/errorControl/D.mesh",
+      "1",
+      "8",
+      "4",
+      ".5",
+      "1",
+      "CPU",
+      "0.09999999999999999",
+      "0.03",
+      "RADIAL",
+      "6",
+      "0"
+    ],
+    "environment": {
+      "AFEPACK_TEMPLATE_PATH": "/usr/local/include/AFEPack/template/triangle/:/usr/local/include/AFEPack/template/twin_triangle/:/usr/local/include/AFEPack/template/tetrahedron/:/usr/local/include/AFEPack/template/twin_tetrahedron/:/usr/local/include/AFEPack/template/four_tetrahedron/",
+      "OMP_DYNAMIC": "FALSE",
+      "OMP_NUM_THREADS": "128",
+      "OMP_PLACES": "cores",
+      "OMP_PROC_BIND": "close",
+      "TREECODE_CPU_INTERACTIONS": "CACHED",
+      "TREECODE_HNL_MAC_FAMILIES": "0",
+      "TREECODE_HNL_SHARED_TARGETS": "0",
+      "WATER10_ATOMS": "/home/hxiao/treecode/errorControl/water10_case/water10.centered.bohr.xyz",
+      "WATER10_PADDING": "4",
+      "WATER10_VALIDATION_GRID": "48"
+    },
+    "hashes": {
+      "D.mesh": "4a407c9222ba6d6880cf683f69dbdb0d9661d9b9b54440a2d2b206682c92f866",
+      "cartesian_multipole.hpp": "cf77e50af25e5a4e0f827dfc91843cbc57b17b87d5e6208b675a2e6a3d22b03b",
+      "compare_exact.cpp": "2f1b07c8c50bf656f1307a9d291103e53eed2dd92e355cdb0c7504e7929ecf96",
+      "compare_water10.cpp": "3857d79d8cdd3a36177e3706ccf879ae75e4740a46a7d94cfe8d5fe13a4f2836",
+      "hnl_candidates.hpp": "1cfb3fca2be6655a33b471f69ee9d90f0a3ed5013309553a1d9bb3d3e7d6acd4",
+      "local_quadrature.hpp": "e187269da33496d12618565ed7dfb4f3a48de8da40c90ca1eea47779a4b2bdad",
+      "mac_geometry.hpp": "fe9647c04aedd1ba9e84cc25372f3fcaa7a2ef438bda20ecbd841339c8b3bb02",
+      "tree_water10": "64786ba6aea6f7a48321f5c9b20c623d3dcf4736de9e6265dffec4866a7d6cd4",
+      "water10_case/water10.centered.bohr.xyz": "3a40cee0bc468bf41c31f7c0f4da7610601a35e34638118e538da161bfa655ee",
+      "water10_test_problem.hpp": "c1e5ecbd23db43e6897d298b65df11d533171ee13c75487d8a2c8716fe8d45ba"
+    }
+  }
+}

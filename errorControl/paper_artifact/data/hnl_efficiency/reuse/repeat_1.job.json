@@ -1,0 +1,29 @@
+{
+  "command": [
+    "/home/hxiao/treecode/errorControl/tree_reuse",
+    "D.mesh",
+    "2",
+    "6",
+    "4",
+    "0.5",
+    "1",
+    "CPU",
+    "20",
+    "0.8",
+    "0.5",
+    "/home/hxiao/treecode/errorControl/experiment_results/hnl_efficiency_20261109/reuse/repeat_1.tsv"
+  ],
+  "load_average_before": [
+    73.14990234375,
+    62.52099609375,
+    59.39599609375
+  ],
+  "started_unix": 1794239896.7969208,
+  "returncode": 0,
+  "wall_s": 65.05425703339279,
+  "load_average_after": [
+    105.00341796875,
+    73.9326171875,
+    63.54443359375
+  ]
+}

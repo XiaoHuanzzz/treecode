@@ -1,0 +1,26 @@
+{
+  "scope": "Regenerated plots/tables from archived data; no solver runs",
+  "sources": {
+    "article_error_validation/components.csv": "2f345e8eb4a7b22181a117f7f9422f453079f522fbbe6641cc7f4484ac810f7e",
+    "article_error_validation/molecular.csv": "202dd9213081836a4cfbfca16a880b26e9ce4edaee75ddc7bdd2373e7961c4df",
+    "article_error_validation/molecular_fine.csv": "a43a888ef3e3682d1c396dd3c323e052e4aaafbedfffc81003a3377acbce9813",
+    "article_error_validation/sampling_summary.csv": "95d88478e9183325ce693f8670a0956f2e825b55503e2fe34674fa24d70137c8",
+    "article_hnl_study/mesh_sequence.pdf": "62e227e305de48a9faf6dbd1a72f1b01dedb74fc7c526156ec0189f3edee08aa",
+    "article_hnl_study/summary.csv": "37a7f6407ee9ef5c779904d0c7104aca6523214261156048d0cdeea16b83ab5c",
+    "article_uniform_joint_study/summary.csv": "a42f9acc9a13970be4aa8db612243e5c5323124dbf18dcc46e6f0cafce658b22",
+    "experiment_results/hartree_program_20261019/resume_20261026/core_results.csv": "4579d1bf3824c6c69bb4e02e3b95b090fe8d93cef2ccd7960e15664c46807b6f",
+    "experiment_results/hartree_program_20261019/resume_20261026/energy_summary.csv": "aa9599acd10fb43f924eb2305d3c1df8a0ebc77c6b69a517b35c726b0b7c8956",
+    "experiment_results/hartree_program_20261019/resume_20261026/sequence_summary.csv": "ec04c6f6d14aa517aa3ddb49a7041ad6748fe3fe89113fa4491e9d1c21a78c24",
+    "single_h2o_hnl_refinement/single_h2o_meshes.pdf": "6801475b8e158df705cbc6e5480e4badcb7660a265307e693d833e0cd8a097c3",
+    "single_h2o_hnl_refinement/summary.csv": "798d82558372cf1f0c4712d099d29403f0d7100a58088182bbeb737039f07803",
+    "submission_review/h2o_validation.csv": "44652c30218a5d2a79bdce86b6ca14e82431885eb7f297f0317f809b46c10638",
+    "submission_review/thread_summary.csv": "95d8ff3458b95b2e2caed902065be390b976f0ded92b1979cc7ca2664448c427",
+    "submission_review/week_20261026/baseline/summary.csv": "1e825ba7789aa7c744701eeae334176e39a5389d414b016b0e5b317b0c0033bf",
+    "water10_case/joint_refinement/h2o_joint_meshes.pdf": "26e8e4733d9639fc413ec59481e4417a906ac0ad8d30af34fb18eec2cdfd70dd",
+    "water10_case/joint_refinement/summary.csv": "55e3a43381004e4ac5954f29e4d9346e9690ad6f9e84d561470854ff1bddd321"
+  },
+  "core_cases": 79,
+  "core_rows": 584,
+  "positive_regime_baseline_rows": 45,
+  "invalid_core_HNL_rows": 151
+}

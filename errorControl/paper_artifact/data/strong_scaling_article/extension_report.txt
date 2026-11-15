@@ -1,0 +1,30 @@
+Measured extension of CPU scaling: 2 and 4 threads
+=================================================
+
+N=100432, p=6, P=4, theta=0.5; original per-list cached HNL -> MAC.
+Three independent repetitions at each new thread count. The archived binary
+matches the original scaling executable byte for byte:
+1558ed5dae90015d15e1fcb656d698111516b49235836e1a32c648fa75e49c78
+
+Threads  Median T_eval(s)  Minimum(s)    Maximum(s)    Speedup
+2        40.3270868715     40.3061916847 40.7897198796  2.01094794854
+4        20.1390280612     20.1121237129 20.1556308512  4.02679177806
+
+Speedups use the original one-thread median 81.0956726149 s.
+The new 8-thread bridge gives 10.0733298957 s versus 10.0767855626 s
+in the original study, a difference of -0.0342933%. It is excluded from
+the scaling medians. This one check is not a certificate of identical
+system load or exclusive use of the shared server.
+
+Every run matches the original mesh SHA-256:
+3a509e1efb9f3ced9af71be8f65f34f1f4577a8d9f7e9101f9565707c0e10408
+Every run gives absolute barycenter error 0.000218861132482.
+Actual OpenMP team sizes are checked against each requested count.
+T_eval retains the original timer including fused norm accumulation.
+
+No interpolation or extrapolation supplies the new table entries.
+before/ preserves the original 18 records, summary and article.
+The aggregate now contains 24 timing records, including the original
+128-thread data that remain outside the article's display.
+Per-run manifests record commands, environment and original source hashes.
+The original solver and main source files have not been changed.

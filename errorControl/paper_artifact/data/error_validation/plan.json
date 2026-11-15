@@ -1,0 +1,26 @@
+{
+  "component_meaning": "tree-direct isolates acceleration of the SAME quadrature charges; direct-analytic contains integration and domain-tail error; neither separately isolates S_p or B_p",
+  "direct_targets": 4096,
+  "gaussian_sampling_inner": [
+    16,
+    32,
+    64
+  ],
+  "gaussian_sampling_outer": 4,
+  "gaussian_sampling_seeds": [
+    7351,
+    19477
+  ],
+  "scope": "independent validation only",
+  "single_h2o_focused": [
+    64,
+    96
+  ],
+  "started_utc": "2026-10-20T08:14:26.101974+00:00",
+  "ten_h2o_uniform": [
+    48,
+    64
+  ],
+  "threads": 128,
+  "timing": "all new timings excluded from production tables"
+}

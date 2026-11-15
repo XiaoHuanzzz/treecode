@@ -1,0 +1,36 @@
+Regression test record
+======================
+
+Date: 2026-11-10
+Host: Moss
+Git recovery tree: 0385d7f52d240f150b9febf65fe921979952c554
+Command: make clean && make check
+Result: PASS (exit status 0)
+
+quadrature_test:
+  Algebraic accuracies 1--20 passed for tetrahedron, twin-tetrahedron,
+  and four-tetrahedron local rules.
+  Maximum absolute monomial error: 1.304512053934559e-15
+  Maximum scaled monomial error: 1.493596912816031e-14
+  Closed-form Coulomb checks passed for unit and skew tetrahedra.
+
+multipole_test:
+  Cartesian orders 1--20 passed recurrence identity and convergence checks.
+  Order-20 direct error: 2.77555756e-16
+
+hnl_test:
+  61,150 red-refined tetrahedral source covers partitioned every leaf once.
+  177,334 flag=1 and 61,150 flag=0 calls matched the historical constructor.
+  Reuse, reordered IDs/children, and sibling-target grouping checks passed.
+
+hnl_family_mac_test:
+  9,370 tetrahedral cover checks, 49,346 family witnesses, and 128
+  shuffled-ID fallbacks passed.
+
+mac_geometry_test:
+  108,210 bitwise AFEPack distance comparisons and 7,574,365 MAC decisions
+  passed, including threshold-adjacent cases.
+
+Compiler warnings in the verbatim historical constructor are signed/unsigned
+comparison warnings only. OpenMPI printed a sandbox socket warning during
+compilation; no MPI process was launched and all tests passed.

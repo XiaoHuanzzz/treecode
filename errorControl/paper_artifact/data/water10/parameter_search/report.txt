@@ -1,0 +1,79 @@
+Water-decamer staged parameter search
+====================================
+CPU: 4 actual OpenMP threads; padding=4 bohr; same 30-center Gaussian model.
+All physical calculations performed by C++ tree_water10.
+Search: p=6,8,10,12 on tol2=0.03; retained p=10,12 for P=2,4,6 and theta=0.5,0.7,0.9.
+Promising settings also tested with tol2=0.05 and 0.01. tol1=(10/3)*tol2.
+Mesh indicator order=6; initial refinement=1; CACHED HNL lists; no sharing/family packing.
+Screened configurations: 28 (including reused baseline results).
+
+Selected settings (median of 3 solver timings; validation excluded):
+Target 1.0e-04: N=7164, p=12, P=6, theta=0.7, tol2=0.05
+  Total=6.2450 s; evaluation=4.8703 s; common errors (20^3 / 32^3)=5.77531e-05 / 7.14838e-05
+Target 3.0e-05: N=22298, p=12, P=6, theta=0.7, tol2=0.01
+  Total=20.6343 s; evaluation=16.1519 s; common errors (20^3 / 32^3)=2.17284e-05 / 2.51916e-05
+Target 1.0e-05: No validated candidate meets threshold
+
+Independent validation:
+Fixed stratified target sets spanning the same domain: 20^3=8000 and 32^3=32768 points.
+The larger of the TWO sampled relative L2 errors is used for threshold screening.
+These are not certified continuous-L2 upper bounds; further sampling can change the estimate.
+The cached MAC is conservative over each entire leaf, so its lists also cover off-center targets.
+Validation uses the original C++ singular/regular/multipole evaluation at these targets.
+Validation runtime is printed separately, after total solver timing.
+
+Important finding:
+Leaf-barycenter errors are often substantially smaller than errors at common off-center points.
+Do not use a barycenter error threshold as a claim of the same whole-domain accuracy.
+The previous experiment tables remain valid for their stated barycenter-discrete metric.
+Possible causes of the discrepancy require a separate near-interface quadrature investigation;
+this search does not diagnose or change that algorithm.
+
+All screened configurations (single screening timing, not necessarily repeated):
+      N    tol2   p   P  theta     Ttotal      Teval    bary_error
+  12260    0.03   6   4    0.5     3.3873     2.7856   1.16290e-04
+  12260    0.03   8   4    0.5     5.0661     4.1858   3.79063e-05
+  12260    0.03  10   4    0.5     7.4796     6.1190   1.50630e-05
+  12260    0.03  12   4    0.5    10.7139     8.7286   8.12845e-06
+  12260    0.03  10   2    0.5     6.7623     5.4715   1.19771e-04
+  12260    0.03  10   2    0.7     5.7048     4.4660   3.49772e-04
+  12260    0.03  10   2    0.9     5.2610     4.0753   5.74323e-04
+  12260    0.03  10   4    0.7     6.0537     4.7849   2.75514e-05
+  12260    0.03  10   4    0.9     5.6318     4.3662   5.61146e-05
+  12260    0.03  10   6    0.5     9.1331     7.5899   1.41538e-05
+  12260    0.03  10   6    0.7     7.0478     5.5857   1.44573e-05
+  12260    0.03  10   6    0.9     6.3746     4.9100   1.66587e-05
+  12260    0.03  12   2    0.5    10.0463     8.2087   1.19672e-04
+  12260    0.03  12   2    0.7     8.3651     6.5609   3.49900e-04
+  12260    0.03  12   2    0.9     7.7954     6.0538   5.74555e-04
+  12260    0.03  12   4    0.7     8.8111     6.9052   2.42399e-05
+  12260    0.03  12   4    0.9     8.2848     6.3052   5.45023e-05
+  12260    0.03  12   6    0.5    12.4928    10.2734   5.90105e-06
+  12260    0.03  12   6    0.7     9.9399     7.7212   6.60669e-06
+  12260    0.03  12   6    0.9     9.0055     6.9056   1.06538e-05
+   7164    0.05   8   4    0.5     3.2335     2.6621   3.77862e-05
+  22298    0.01   8   4    0.5    11.2586     9.1829   9.11635e-06
+   7164    0.05  12   6    0.7     6.2450     4.8842   6.55485e-06
+  22298    0.01  12   6    0.7    20.6368    16.1121   3.56924e-06
+   7164    0.05  12   6    0.5     8.0070     6.6399   5.89630e-06
+  22298    0.01  12   6    0.5    27.2803    22.7351   1.19554e-06
+   7164    0.05  10   4    0.7     3.8504     3.0265   2.66116e-05
+  22298    0.01  10   4    0.7    12.6901     9.8408   2.59484e-05
+
+Common-target validation of finalists:
+{"P": 4, "conservative_error": 5.98237108857e-05, "error20": 4.71238299971e-05, "error32": 5.98237108857e-05, "p": 8, "theta": 0.5, "tol2": 0.01}
+{"P": 4, "conservative_error": 4.57356886703e-05, "error20": 4.18068516581e-05, "error32": 4.57356886703e-05, "p": 10, "theta": 0.7, "tol2": 0.01}
+{"P": 6, "conservative_error": 2.49573607457e-05, "error20": 2.14974460752e-05, "error32": 2.49573607457e-05, "p": 12, "theta": 0.5, "tol2": 0.01}
+{"P": 6, "conservative_error": 2.51916337291e-05, "error20": 2.17283699064e-05, "error32": 2.51916337291e-05, "p": 12, "theta": 0.7, "tol2": 0.01}
+{"P": 4, "conservative_error": 0.000133701171405, "error20": 9.79801352589e-05, "error32": 0.000133701171405, "p": 10, "theta": 0.7, "tol2": 0.03}
+{"P": 6, "conservative_error": 7.1408985668e-05, "error20": 5.76894325842e-05, "error32": 7.1408985668e-05, "p": 12, "theta": 0.5, "tol2": 0.03}
+{"P": 4, "conservative_error": 0.0001935851059, "error20": 0.000133540501625, "error32": 0.0001935851059, "p": 8, "theta": 0.5, "tol2": 0.05}
+{"P": 4, "conservative_error": 0.000133535221359, "error20": 9.77632867528e-05, "error32": 0.000133535221359, "p": 10, "theta": 0.7, "tol2": 0.05}
+{"P": 6, "conservative_error": 7.14085484123e-05, "error20": 5.76888519373e-05, "error32": 7.14085484123e-05, "p": 12, "theta": 0.5, "tol2": 0.05}
+{"P": 6, "conservative_error": 7.1483789817e-05, "error20": 5.77531362838e-05, "error32": 7.1483789817e-05, "p": 12, "theta": 0.7, "tol2": 0.05}
+
+Scope: best among tested and validated contenders, NOT a globally optimal parameter set.
+Thresholds are numerical benchmark targets, not established DFT energy/force tolerances.
+Model is manufactured density, not SCF water density; no Poisson advantage is claimed.
+Total timing retains the original solver definition: excludes wrapper setup, includes native error accumulation.
+Default makefile parameters were not changed. Raw logs and all_runs.csv retain the evidence.

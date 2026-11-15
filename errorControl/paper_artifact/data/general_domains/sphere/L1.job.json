@@ -1,0 +1,39 @@
+{
+  "command": [
+    "/home/hxiao/treecode/errorControl/general_domain/compare_radial_test_domain",
+    "--mode",
+    "solve",
+    "--uniform",
+    "--mesh",
+    "/home/hxiao/treecode/errorControl/radial_shell_meshes/scaling/sphere.mesh",
+    "--level",
+    "1",
+    "--p",
+    "2",
+    "--P",
+    "4",
+    "--theta",
+    "0.5",
+    "--targets",
+    "/home/hxiao/treecode/errorControl/general_domain/runs/irregular_scaling_20261108/sphere/targets.csv",
+    "--same-direct",
+    "--leaf-cap",
+    "1000000",
+    "--output",
+    "/home/hxiao/treecode/errorControl/general_domain/runs/irregular_scaling_p2P4_20261109/sphere/L1"
+  ],
+  "threads": 16,
+  "load_average_before": [
+    47.53564453125,
+    52.8046875,
+    56.2587890625
+  ],
+  "started_unix": 1794188438.3681319,
+  "returncode": 0,
+  "wall_s": 1.2867683116346598,
+  "load_average_after": [
+    47.53564453125,
+    52.8046875,
+    56.2587890625
+  ]
+}

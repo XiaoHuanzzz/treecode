@@ -1,0 +1,471 @@
+{
+  "source_url": "https://www-wales.ch.cam.ac.uk/~wales/CCD/TIP4P/xyz/TIP4P-10.xyz",
+  "citation": "D. J. Wales and M. P. Hodges, Chem. Phys. Lett. 286, 65 (1998)",
+  "geometry": "TIP4P minimum candidate, not a DFT-optimized geometry",
+  "original_units": "angstrom; checked against TIP4P OH length and HOH angle",
+  "angstrom_to_bohr": 1.8897261246257702,
+  "translation_center_angstrom": [
+    0.6043163999999999,
+    -0.40422505,
+    -0.20632439999999996
+  ],
+  "atom_box_halfwidth_bohr": [
+    5.396203655722868,
+    6.161856525219299,
+    6.427294921102427
+  ],
+  "species": {
+    "O": {
+      "q": 8,
+      "alpha_bohr_minus2": 2.0
+    },
+    "H": {
+      "q": 1,
+      "alpha_bohr_minus2": 1.0
+    }
+  },
+  "density": "sum q_a*(alpha_a/pi)^(3/2)*exp(-alpha_a*|x-R_a|^2)",
+  "density_status": "Synthetic positive 100-electron model; no fitted atomic density, bonds, polarization, Becke weights or TIP4P point charges.",
+  "full_space_reference": "sum q_a*erf(sqrt(alpha_a)*r_a)/r_a; at r_a=0 use 2*q_a*sqrt(alpha_a/pi)",
+  "reference_caveat": "Reference is full-space, not the exact finite-box integral; monitor the separately bounded omitted density.",
+  "full_space_electrons": 100,
+  "fixed_target_box_bounds_bohr": [
+    [
+      -6.396203655722868,
+      6.396203655722868
+    ],
+    [
+      -7.161856525219299,
+      7.161856525219299
+    ],
+    [
+      -7.427294921102427,
+      7.427294921102427
+    ]
+  ],
+  "tail_bound_derivation": "For targets in atom box padded by 1 bohr and d>1, omitted sources have distance at least d-1; potential tail <= omitted_charge/(d-1). This is a pointwise bound, not an L2 bound.",
+  "main_padding_bohr": [
+    4,
+    6,
+    8,
+    12
+  ],
+  "tail_stress_padding_bohr": [
+    2,
+    3
+  ],
+  "domain_cases": [
+    {
+      "padding_bohr": 2,
+      "bounds_bohr": [
+        [
+          -7.396203655722868,
+          7.396203655722868
+        ],
+        [
+          -8.1618565252193,
+          8.1618565252193
+        ],
+        [
+          -8.427294921102426,
+          8.427294921102426
+        ]
+      ],
+      "omitted_electrons": 0.015867916222891024,
+      "uniform_potential_tail_bound_on_target_box": 0.015867916222891024
+    },
+    {
+      "padding_bohr": 3,
+      "bounds_bohr": [
+        [
+          -8.396203655722868,
+          8.396203655722868
+        ],
+        [
+          -9.1618565252193,
+          9.1618565252193
+        ],
+        [
+          -9.427294921102426,
+          9.427294921102426
+        ]
+      ],
+      "omitted_electrons": 7.043129752442909e-05,
+      "uniform_potential_tail_bound_on_target_box": 3.5215648762214544e-05
+    },
+    {
+      "padding_bohr": 4,
+      "bounds_bohr": [
+        [
+          -9.396203655722868,
+          9.396203655722868
+        ],
+        [
+          -10.1618565252193,
+          10.1618565252193
+        ],
+        [
+          -10.427294921102426,
+          10.427294921102426
+        ]
+      ],
+      "omitted_electrons": 4.751383205782632e-08,
+      "uniform_potential_tail_bound_on_target_box": 1.583794401927544e-08
+    },
+    {
+      "padding_bohr": 6,
+      "bounds_bohr": [
+        [
+          -11.396203655722868,
+          11.396203655722868
+        ],
+        [
+          -12.1618565252193,
+          12.1618565252193
+        ],
+        [
+          -12.427294921102426,
+          12.427294921102426
+        ]
+      ],
+      "omitted_electrons": 6.316811228017873e-17,
+      "uniform_potential_tail_bound_on_target_box": 1.2633622456035746e-17
+    },
+    {
+      "padding_bohr": 8,
+      "bounds_bohr": [
+        [
+          -13.396203655722868,
+          13.396203655722868
+        ],
+        [
+          -14.1618565252193,
+          14.1618565252193
+        ],
+        [
+          -14.427294921102426,
+          14.427294921102426
+        ]
+      ],
+      "omitted_electrons": 3.182567319921672e-29,
+      "uniform_potential_tail_bound_on_target_box": 4.546524742745246e-30
+    },
+    {
+      "padding_bohr": 12,
+      "bounds_bohr": [
+        [
+          -17.396203655722868,
+          17.396203655722868
+        ],
+        [
+          -18.1618565252193,
+          18.1618565252193
+        ],
+        [
+          -18.427294921102426,
+          18.427294921102426
+        ]
+      ],
+      "omitted_electrons": 3.672179416548303e-64,
+      "uniform_potential_tail_bound_on_target_box": 3.338344924134821e-65
+    }
+  ],
+  "baseline": {
+    "p": 6,
+    "P": 4,
+    "theta": 0.5,
+    "backend": "CPU",
+    "threads": 128
+  },
+  "baseline_status": "Proposed; establish numerical convergence before attributing error to boundaries.",
+  "mesh_policy": "One AFEPack tetrahedral mesh per domain, refined around all 30 centers. Preserve interior resolution and use a graded coarse exterior. Do not fix N across domains. No solver modification or mesh generation has yet been performed.",
+  "target_policy": "Use identical independently converged target points/weights in the fixed target box for every domain and solver; do not compare errors on changing leaf-center sets.",
+  "poisson_policy": "Same density and domain; multipole boundary treatment with cost included is the main comparator, zero Dirichlet only auxiliary. Check convergence of any exterior multipole series on the whole boundary; a tight box may require a different valid boundary evaluation.",
+  "geometry_checks": {
+    "OH_angstrom_minmax": [
+      0.9571999979000575,
+      0.9572001756403673
+    ],
+    "HOH_degree_minmax": [
+      104.51999443972616,
+      104.52000714602192
+    ],
+    "counts": {
+      "O": 10,
+      "H": 20,
+      "virtual_sites": 0
+    }
+  },
+  "atoms": [
+    {
+      "molecule": 1,
+      "element": "O",
+      "position_bohr": [
+        -3.735971729822638,
+        0.47049654609113195,
+        4.925381415334157
+      ]
+    },
+    {
+      "molecule": 1,
+      "element": "H",
+      "position_bohr": [
+        -4.01923241624603,
+        1.979109319943813,
+        3.9684205153440306
+      ]
+    },
+    {
+      "molecule": 1,
+      "element": "H",
+      "position_bohr": [
+        -4.718730603948319,
+        0.6949183419529513,
+        6.427294921102427
+      ]
+    },
+    {
+      "molecule": 2,
+      "element": "O",
+      "position_bohr": [
+        -0.9518646865772359,
+        2.4194975210954266,
+        -4.650035657811148
+      ]
+    },
+    {
+      "molecule": 2,
+      "element": "H",
+      "position_bohr": [
+        0.24939773913316093,
+        1.1926463139314718,
+        -4.081064444016398
+      ]
+    },
+    {
+      "molecule": 2,
+      "element": "H",
+      "position_bohr": [
+        -0.6471072316505506,
+        2.5623137619366316,
+        -6.427294921102427
+      ]
+    },
+    {
+      "molecule": 3,
+      "element": "O",
+      "position_bohr": [
+        -4.5803582430617835,
+        -2.8017037004863865,
+        0.9156186056712389
+      ]
+    },
+    {
+      "molecule": 3,
+      "element": "H",
+      "position_bohr": [
+        -5.043296924003782,
+        -1.5835611071951574,
+        -0.33886927914752996
+      ]
+    },
+    {
+      "molecule": 3,
+      "element": "H",
+      "position_bohr": [
+        -4.488957859592009,
+        -1.8555372940653467,
+        2.454559594098039
+      ]
+    },
+    {
+      "molecule": 4,
+      "element": "O",
+      "position_bohr": [
+        -4.475360335262264,
+        4.578859784731262,
+        1.848833963069768
+      ]
+    },
+    {
+      "molecule": 4,
+      "element": "H",
+      "position_bohr": [
+        -2.8571818076216187,
+        4.96854927957574,
+        1.140622059234218
+      ]
+    },
+    {
+      "molecule": 4,
+      "element": "H",
+      "position_bohr": [
+        -5.350059378348695,
+        6.161856525219299,
+        1.8795987043786757
+      ]
+    },
+    {
+      "molecule": 5,
+      "element": "O",
+      "position_bohr": [
+        -0.03301634998639888,
+        5.397112141557283,
+        -0.4541418168592521
+      ]
+    },
+    {
+      "molecule": 5,
+      "element": "H",
+      "position_bohr": [
+        1.3941433697439252,
+        4.53670226256221,
+        0.24930230796386713
+      ]
+    },
+    {
+      "molecule": 5,
+      "element": "H",
+      "position_bohr": [
+        -0.2875851356869856,
+        4.612245387202412,
+        -2.063832072693304
+      ]
+    },
+    {
+      "molecule": 6,
+      "element": "O",
+      "position_bohr": [
+        2.475110554675957,
+        -0.7539959049240644,
+        -2.652239686597667
+      ]
+    },
+    {
+      "molecule": 6,
+      "element": "H",
+      "position_bohr": [
+        3.2001502806786872,
+        0.2855371449994227,
+        -1.361653686428459
+      ]
+    },
+    {
+      "molecule": 6,
+      "element": "H",
+      "position_bohr": [
+        1.751918602877886,
+        -2.1497362822159105,
+        -1.757350809595735
+      ]
+    },
+    {
+      "molecule": 7,
+      "element": "O",
+      "position_bohr": [
+        -5.396203655722868,
+        1.2719441354086933,
+        -2.136962772962809
+      ]
+    },
+    {
+      "molecule": 7,
+      "element": "H",
+      "position_bohr": [
+        -5.295009388666997,
+        2.508115471819302,
+        -0.8203138590553751
+      ]
+    },
+    {
+      "molecule": 7,
+      "element": "H",
+      "position_bohr": [
+        -3.9672160039121938,
+        1.614734407292209,
+        -3.1916727803110034
+      ]
+    },
+    {
+      "molecule": 8,
+      "element": "O",
+      "position_bohr": [
+        3.7871375764277806,
+        2.329589265373656,
+        1.3717215803026275
+      ]
+    },
+    {
+      "molecule": 8,
+      "element": "H",
+      "position_bohr": [
+        5.396203655722868,
+        2.6487706218643847,
+        2.133925038217473
+      ]
+    },
+    {
+      "molecule": 8,
+      "element": "H",
+      "position_bohr": [
+        2.9471151967008464,
+        1.2245628433133386,
+        2.531550437922317
+      ]
+    },
+    {
+      "molecule": 9,
+      "element": "O",
+      "position_bohr": [
+        1.2523311403927337,
+        -0.9929551748900174,
+        4.256371124063518
+      ]
+    },
+    {
+      "molecule": 9,
+      "element": "H",
+      "position_bohr": [
+        -0.4251513394087554,
+        -0.4733243322640221,
+        4.689914737191738
+      ]
+    },
+    {
+      "molecule": 9,
+      "element": "H",
+      "position_bohr": [
+        1.0178457970268322,
+        -2.354302725686287,
+        3.088606928501301
+      ]
+    },
+    {
+      "molecule": 10,
+      "element": "O",
+      "position_bohr": [
+        0.21419837752759413,
+        -4.3568649641313,
+        0.3838814216004409
+      ]
+    },
+    {
+      "molecule": 10,
+      "element": "H",
+      "position_bohr": [
+        0.22389512919088644,
+        -6.161856525219299,
+        0.2662580645896843
+      ]
+    },
+    {
+      "molecule": 10,
+      "element": "H",
+      "position_bohr": [
+        -1.5389464686325611,
+        -3.915906821580499,
+        0.44683178929136214
+      ]
+    }
+  ]
+}

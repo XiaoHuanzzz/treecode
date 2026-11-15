@@ -1,0 +1,28 @@
+{
+  "command": [
+    "/home/hxiao/treecode/errorControl/tree_exact",
+    "D.mesh",
+    "2",
+    "6",
+    "4",
+    "0.5",
+    "0",
+    "CPU",
+    "0.01",
+    "0.0001"
+  ],
+  "threads": 16,
+  "load_average_before": [
+    61.962890625,
+    61.03662109375,
+    59.1455078125
+  ],
+  "started_unix": 1794189789.7630842,
+  "returncode": 0,
+  "wall_s": 43.64343590475619,
+  "load_average_after": [
+    67.39599609375,
+    62.7177734375,
+    59.8095703125
+  ]
+}

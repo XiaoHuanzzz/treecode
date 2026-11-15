@@ -1,0 +1,17 @@
+model,level,N,p,P,theta,grid,targets,E_relative,validation_seconds,validation_threads,mesh_sha256,log
+single_h2o,1,12106,4,2,0.5,64,373248,0.244724593585131,2.50153854116797,128,1cf3a4e527d6914140ba7a02727cdba9b0e150ecd4f99e1d9b999ee7414b431a,article_error_validation/molecular/single_level1_m64/console.log
+single_h2o,1,12106,4,2,0.5,96,1124864,0.244929340142253,7.68060717731714,128,1cf3a4e527d6914140ba7a02727cdba9b0e150ecd4f99e1d9b999ee7414b431a,article_error_validation/molecular/single_level1_m96/console.log
+single_h2o,2,13380,6,3,0.5,64,373248,0.0285439818782935,5.11474196985364,128,02a706fc1780bb24f9906208153769e3d0e47ae4bd02c09cd60cd074b9a923bb,article_error_validation/molecular/single_level2_m64/console.log
+single_h2o,2,13380,6,3,0.5,96,1124864,0.030116341950069,15.8975509218872,128,02a706fc1780bb24f9906208153769e3d0e47ae4bd02c09cd60cd074b9a923bb,article_error_validation/molecular/single_level2_m96/console.log
+single_h2o,3,16040,8,4,0.5,64,373248,0.0120988728377636,9.48310352675617,128,ace177276cde72c39fb16e247034e5e0e49fca8264c452eaaf3fcc87ce7ec953,article_error_validation/molecular/single_level3_m64/console.log
+single_h2o,3,16040,8,4,0.5,96,1124864,0.0123809768330889,28.9518484137952,128,ace177276cde72c39fb16e247034e5e0e49fca8264c452eaaf3fcc87ce7ec953,article_error_validation/molecular/single_level3_m96/console.log
+single_h2o,4,25252,10,6,0.5,64,373248,0.00624371866564267,19.9709795247763,128,28e2af5515a2e69f45286d8bd04785fed506d01b536c289c0e63be1dfed12feb,article_error_validation/molecular/single_level4_m64/console.log
+single_h2o,4,25252,10,6,0.5,96,1124864,0.00732837052654297,60.173425745219,128,28e2af5515a2e69f45286d8bd04785fed506d01b536c289c0e63be1dfed12feb,article_error_validation/molecular/single_level4_m96/console.log
+ten_h2o,1,1536,4,2,0.5,48,110592,0.0104308685721,0.614203548059,128,39cbdf3959cc9e3ad61eb1a8bd789cc1f9b7f2bca875af61538632eee6d337df,article_error_validation/molecular/ten_level1_m48/console.log
+ten_h2o,1,1536,4,2,0.5,64,262144,0.0104786592186,1.44948048145,128,39cbdf3959cc9e3ad61eb1a8bd789cc1f9b7f2bca875af61538632eee6d337df,article_error_validation/molecular/ten_level1_m64/console.log
+ten_h2o,2,7164,6,3,0.5,48,110592,0.000375537489796,1.52369316481,128,4c3db8eb4997c1ecdf11e0dda4924673607ae63294e1040ee3e0972f448408f4,article_error_validation/molecular/ten_level2_m48/console.log
+ten_h2o,2,7164,6,3,0.5,64,262144,0.000352963970995,3.5961245317,128,4c3db8eb4997c1ecdf11e0dda4924673607ae63294e1040ee3e0972f448408f4,article_error_validation/molecular/ten_level2_m64/console.log
+ten_h2o,3,12260,8,4,0.5,48,110592,0.000216885195102,2.5969140213,128,01c046eae0267b516466b0c455a48d648b49dcf4b69d37eb5f90b7ea79be0d6f,article_error_validation/molecular/ten_level3_m48/console.log
+ten_h2o,3,12260,8,4,0.5,64,262144,0.000225188729701,6.10824722983,128,01c046eae0267b516466b0c455a48d648b49dcf4b69d37eb5f90b7ea79be0d6f,article_error_validation/molecular/ten_level3_m64/console.log
+ten_h2o,4,22298,12,6,0.5,48,110592,2.3014741995e-05,7.5178205166,128,07f5ef4ee4b89c0969a187abf96f9c2795d16424c76ddc7666ebd5397d3153c0,article_error_validation/molecular/ten_level4_m48/console.log
+ten_h2o,4,22298,12,6,0.5,64,262144,2.3748050076e-05,17.2657905836,128,07f5ef4ee4b89c0969a187abf96f9c2795d16424c76ddc7666ebd5397d3153c0,article_error_validation/molecular/ten_level4_m64/console.log

@@ -1,0 +1,41 @@
+\begin{tikzpicture}[font=\normalsize,line join=round,line cap=round,
+  >={Stealth[length=3pt,width=2.6pt]},
+  guide/.style={black!45,line width=.3pt,dash pattern=on 1.5pt off 2pt},
+  dimension/.style={<->,line width=.38pt}]
+  \pgfmathsetmacro{\targetradius}{sqrt(.95*.95+.65*.65)}
+  \pgfmathsetmacro{\sourceradius}{sqrt(1.18*1.18+.30*.30)}
+  \coordinate (target) at (0,0);
+  \coordinate (source) at (5.8,0);
+  \coordinate (evaluation) at (.20,.40);
+  \coordinate (targetBoundary) at (\targetradius,0);
+  \begin{scope}[shift={(target)}]
+    \draw[guide] (0,0) circle[radius=\targetradius];
+    \draw[line width=.55pt]
+      (-.95,-.65)--(.85,-.35)--(.10,1.00)--cycle;
+    \draw[line width=.4pt] (0,0)--(-.95,-.65)
+      node[pos=.25,sloped,above=1pt,inner sep=1pt] {$r_t$};
+  \end{scope}
+  \begin{scope}[shift={(source)}]
+    \draw[guide] (0,0) circle[radius=\sourceradius];
+    \draw[line width=.55pt]
+      (-.88,-.63)--(1.18,-.30)--(-.30,.93)--cycle;
+    \draw[line width=.4pt] (0,0)--(1.18,-.30)
+      node[pos=.32,sloped,above=1pt,inner sep=1pt] {$R_C$};
+  \end{scope}
+  \node[above=3pt] at (0,\targetradius) {$K_t$};
+  \node[above=3pt] at (5.8,\sourceradius) {$C$};
+  \draw[dimension,shorten <=2.2pt,shorten >=2.2pt] (target)--(source)
+    node[midway,above=3pt] {$|\mathbf c_t-\mathbf c_C|$};
+  \fill (target) circle[radius=1.05pt];
+  \fill (source) circle[radius=1.05pt];
+  \node[below right=2pt,inner sep=0pt] at (target) {$\mathbf c_t$};
+  \node[below left=2pt,inner sep=0pt] at (source) {$\mathbf c_C$};
+  \begin{scope}[shift={(evaluation)}]
+    \draw[fill=white,line width=.45pt] (0,0) circle[radius=1.3pt];
+    \node[above left=2pt,inner sep=0pt] at (0,0) {$\mathbf x$};
+  \end{scope}
+  \draw[guide] (targetBoundary)--(\targetradius,-1.65);
+  \draw[guide] (source)--(5.8,-1.65);
+  \draw[dimension] (\targetradius,-1.5)--(5.8,-1.5)
+    node[midway,below=3pt] {$d_{tC}$};
+\end{tikzpicture}

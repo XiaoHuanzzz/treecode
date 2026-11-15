@@ -1,0 +1,8 @@
+Archive verification completed on 2026-11-10.
+
+PASS: 21 raw result records and manifests verified
+PASS: all source and executable hashes agree across runs
+PASS: all seven article medians and speedups were reproduced
+
+Command:
+  python3 verify_archive.py

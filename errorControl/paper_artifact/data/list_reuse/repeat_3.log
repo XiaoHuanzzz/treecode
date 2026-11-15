@@ -1,0 +1,403 @@
+Configuration: initial_refinements=2, quadrature_accuracy=6, expansion_order=4, theta=0.5, backend=CPU, mesh=adaptive, comparison=analytic exact solution
+Reuse sequence: steps=20, decay=0.8, initial perturbation amplitude=0.5
+Reading in mesh data file D.mesh as geometry tree root ...
+	# points: 14
+	# 1D-geometry: 49
+	# 2D-geometry: 60
+	# 3D-geometry: 24
+Constructing the root mesh from hierarchy geometry tree ...
+	constructing elements ... OK!
+Semiregularizing the mesh ...  -OK!
+	0 elements refined in semiregularization.
+Generating regular mesh from the semiregular mesh ...
+	preparing data ...
+	building the regular mesh ...
+	nodes: 14; edges: 49; surface: 60; elements: 24 (24, 0, 0)
+Global refine the mesh ...
+	round 1 ...	round 2 ...
+Semiregularizing the mesh ...  -OK!
+	0 elements refined in semiregularization.
+Generating regular mesh from the semiregular mesh ...
+	preparing data ...
+	building the regular mesh ...
+	nodes: 365; edges: 2092; surface: 3264; elements: 1536 (1536, 0, 0)
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.tmp_geo
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.tmp_geo
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.1.tmp_dof
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.1.tmp_dof
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.crd_trs
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.crd_trs
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.1.bas_fun
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.1.bas_fun
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.1.bas_fun.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.out_nrm
+AFEPack library file opened: /usr/local/include/AFEPack/template/tetrahedron//tetrahedron.out_nrm
+Opening shared library /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/tetrahedron//./libtetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.tmp_geo
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.tmp_geo
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.1.tmp_dof
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.1.tmp_dof
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.crd_trs
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.crd_trs
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.1.bas_fun
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.1.bas_fun
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.1.bas_fun.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.out_nrm
+AFEPack library file opened: /usr/local/include/AFEPack/template/twin_tetrahedron//twin_tetrahedron.out_nrm
+Opening shared library /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/twin_tetrahedron//./libtwin_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.tmp_geo
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.tmp_geo
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.1.tmp_dof
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.1.tmp_dof
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.crd_trs
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.crd_trs
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.1.bas_fun
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.1.bas_fun
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.1.bas_fun.so: success
+AFEPack library file found: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.out_nrm
+AFEPack library file opened: /usr/local/include/AFEPack/template/four_tetrahedron//four_tetrahedron.out_nrm
+Opening shared library /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so ...
+	tried /usr/local/include/AFEPack/template/four_tetrahedron//./libfour_tetrahedron.geometry.so: success
+Building degree of freedom for the FEM space ...
+	total 365 degree of freedom found.
+Constructing the root mesh from hierarchy geometry tree ...
+	constructing elements ... OK!
+Constructing the root mesh from hierarchy geometry tree ...
+	constructing elements ... OK!
+Implementing mesh adaption ... OK!
+Semiregularizing the mesh ...  -OK!
+	0 elements refined in semiregularization.
+Generating regular mesh from the semiregular mesh ...
+	preparing data ...
+	building the regular mesh ...
+	nodes: 2053; edges: 12884; surface: 20992; elements: 10160 (9920, 88, 152)
+Building degree of freedom for the FEM space ...
+	total 2053 degree of freedom found.
+Constructing the root mesh from hierarchy geometry tree ...
+	constructing elements ... OK!
+Constructing the root mesh from hierarchy geometry tree ...
+	constructing elements ... OK!
+Implementing mesh adaption ... OK!
+Semiregularizing the mesh ...  -/OK!
+	16 elements refined in semiregularization.
+Generating regular mesh from the semiregular mesh ...
+	preparing data ...
+	building the regular mesh ...
+	nodes: 18517; edges: 122532; surface: 204672; elements: 100656 (100224, 240, 192)
+Building degree of freedom for the FEM space ...
+	total 18517 degree of freedom found.
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.105469696223736 seconds, hierarchy validation=0.0583586692810059 seconds, MAC construction=0.777755321934819 seconds, aggregate validation=0.00839563831686974 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.777755321934819 seconds
+Code-owned local quadrature: algebraic accuracy=6, elements(tetra/twin/four)=100224/240/192, total points=8117760
+Gaussian quadrature mesh volume: 999.999999998564
+Target-element singular integration: closed-form constant-density tetrahedron potential plus Duffy quadrature of the density remainder
+
+Preliminary multirate/reuse experiment
+  Manufactured sequence: V_k = V_0 + beta_k V_1, beta_k = beta_0 * decay^k
+  V_1 is a shifted anisotropic Gaussian centered at (0.70,-0.35,0.20)
+  Reused data: adaptive mesh, quadrature geometry, hierarchy, and MAC near/far lists
+  Updated data: source charges, Cartesian moments, and potential
+  Steps=20, beta_0=0.5, decay=0.8, leaves=100656, near/far entries=30740994/222529431
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0482752677053213 seconds, hierarchy validation=0.0565511677414179 seconds, MAC construction=0.752856204286218 seconds, aggregate validation=0.010774202644825 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.752856204286218 seconds
+  step 0: beta=0.5, r_rho=0, T_list_rebuild=0.953853067, T_update=0.0241761915 s, T_moment=0.122922303 s, T_eval=1.79538729 s, L2_error=0.000292935979, relative_error=0.00191187296
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0458346232771873 seconds, hierarchy validation=0.0453406441956758 seconds, MAC construction=0.618872774764895 seconds, aggregate validation=0.00762132927775383 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.618872774764895 seconds
+  step 1: beta=0.4, r_rho=0.0840048929, T_list_rebuild=0.781550249, T_update=0.0133530647 s, T_moment=0.119985426 s, T_eval=1.75989628 s, L2_error=0.000263503582, relative_error=0.00179540223
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0348935946822166 seconds, hierarchy validation=0.0583266671746969 seconds, MAC construction=0.603439223021269 seconds, aggregate validation=0.0107611883431673 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.603439223021269 seconds
+  step 2: beta=0.32, r_rho=0.0686237071, T_list_rebuild=0.790488673, T_update=0.0192442909 s, T_moment=0.117340365 s, T_eval=1.74636964 s, L2_error=0.00024392314, relative_error=0.00171205877
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0331852305680513 seconds, hierarchy validation=0.0535218752920628 seconds, MAC construction=0.603994645178318 seconds, aggregate validation=0.0114775858819485 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.603994645178318 seconds
+  step 3: beta=0.256, r_rho=0.0556662817, T_list_rebuild=0.781548135, T_update=0.0305395331 s, T_moment=0.137942959 s, T_eval=1.7084062 s, L2_error=0.000231465721, relative_error=0.00165746569
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0399149917066097 seconds, hierarchy validation=0.0672863032668829 seconds, MAC construction=0.597606705501676 seconds, aggregate validation=0.010942729189992 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.597606705501676 seconds
+  step 4: beta=0.2048, r_rho=0.0449406225, T_list_rebuild=0.771783568, T_update=0.037084626 s, T_moment=0.13495324 s, T_eval=1.75842251 s, L2_error=0.000223909754, relative_error=0.00162480056
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0407425593584776 seconds, hierarchy validation=0.0642650760710239 seconds, MAC construction=0.616164470091462 seconds, aggregate validation=0.0123965330421925 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.616164470091462 seconds
+  step 5: beta=0.16384, r_rho=0.0361665688, T_list_rebuild=0.825479902, T_update=0.0167646743 s, T_moment=0.121913644 s, T_eval=1.74672406 s, L2_error=0.000219574467, relative_error=0.00160730311
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0245670527219772 seconds, hierarchy validation=0.0395625475794077 seconds, MAC construction=0.595850236713886 seconds, aggregate validation=0.0114990752190351 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.595850236713886 seconds
+  step 6: beta=0.131072, r_rho=0.0290448805, T_list_rebuild=0.734655131, T_update=0.0122808963 s, T_moment=0.115841545 s, T_eval=1.76289429 s, L2_error=0.00021726953, relative_error=0.0015995086
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.035248190164566 seconds, hierarchy validation=0.0593430623412132 seconds, MAC construction=0.618675382807851 seconds, aggregate validation=0.00821585766971111 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.618675382807851 seconds
+  step 7: beta=0.1048576, r_rho=0.0232938614, T_list_rebuild=0.803502493, T_update=0.0119454246 s, T_moment=0.115313081 s, T_eval=1.74648351 s, L2_error=0.00021619552, relative_error=0.00159749964
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0762401632964611 seconds, hierarchy validation=0.055730015039444 seconds, MAC construction=0.609720882028341 seconds, aggregate validation=0.00937648117542267 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.609720882028341 seconds
+  step 8: beta=0.08388608, r_rho=0.0186651127, T_list_rebuild=0.845547924, T_update=0.0134181455 s, T_moment=0.133466993 s, T_eval=1.7355971 s, L2_error=0.000215837088, relative_error=0.00159868199
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0361837577074766 seconds, hierarchy validation=0.0593910720199347 seconds, MAC construction=0.623408181592822 seconds, aggregate validation=0.0105175077915192 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.623408181592822 seconds
+  step 9: beta=0.067108864, r_rho=0.0149476303, T_list_rebuild=0.804874312, T_update=0.0127478838 s, T_moment=0.128697798 s, T_eval=1.75682802 s, L2_error=0.000215872689, relative_error=0.00160143491
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0280765742063522 seconds, hierarchy validation=0.0558730904012918 seconds, MAC construction=0.611881041899323 seconds, aggregate validation=0.0146960392594337 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.611881041899323 seconds
+  step 10: beta=0.0536870912, r_rho=0.0119661499, T_list_rebuild=0.789631197, T_update=0.0142776612 s, T_moment=0.116780324 s, T_eval=1.7692356 s, L2_error=0.000216107462, relative_error=0.0016047956
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0238600689917803 seconds, hierarchy validation=0.0391172654926777 seconds, MAC construction=0.614676330238581 seconds, aggregate validation=0.00747500360012054 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.614676330238581 seconds
+  step 11: beta=0.042949673, r_rho=0.00957709017, T_list_rebuild=0.743184296, T_update=0.0166710261 s, T_moment=0.131454058 s, T_eval=1.77064196 s, L2_error=0.000216426909, relative_error=0.00160822262
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.081773879006505 seconds, hierarchy validation=0.0538348536938429 seconds, MAC construction=0.644050061702728 seconds, aggregate validation=0.0153724607080221 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.644050061702728 seconds
+  step 12: beta=0.0343597384, r_rho=0.00766383777, T_list_rebuild=0.868798193, T_update=0.0124112107 s, T_moment=0.118569165 s, T_eval=1.7701041 s, L2_error=0.000216766345, relative_error=0.0016114338
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0371178537607193 seconds, hierarchy validation=0.0544026903808117 seconds, MAC construction=0.622634068131447 seconds, aggregate validation=0.0128200501203537 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.622634068131447 seconds
+  step 13: beta=0.0274877907, r_rho=0.00613219784, T_list_rebuild=0.810763329, T_update=0.0119166095 s, T_moment=0.117559483 s, T_eval=1.75353221 s, L2_error=0.000217091328, relative_error=0.00161430108
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0430113207548857 seconds, hierarchy validation=0.0649874247610569 seconds, MAC construction=0.640976374968886 seconds, aggregate validation=0.00919348746538162 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.640976374968886 seconds
+  step 14: beta=0.0219902326, r_rho=0.00490634744, T_list_rebuild=0.834776621, T_update=0.0123638306 s, T_moment=0.121275382 s, T_eval=1.76554416 s, L2_error=0.000217385357, relative_error=0.00161678445
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0343574862927198 seconds, hierarchy validation=0.0595279820263386 seconds, MAC construction=0.592882191762328 seconds, aggregate validation=0.0100782886147499 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.592882191762328 seconds
+  step 15: beta=0.017592186, r_rho=0.00392538709, T_list_rebuild=0.753125275, T_update=0.0159744248 s, T_moment=0.145161267 s, T_eval=1.76705849 s, L2_error=0.00021764228, relative_error=0.00161889166
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0380086675286293 seconds, hierarchy validation=0.0510344710201025 seconds, MAC construction=0.593969825655222 seconds, aggregate validation=0.0117289666086435 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.593969825655222 seconds
+  step 16: beta=0.0140737488, r_rho=0.00314047272, T_list_rebuild=0.767527776, T_update=0.0159430224 s, T_moment=0.15371692 s, T_eval=1.81360583 s, L2_error=0.000217861656, relative_error=0.00162065409
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0328003279864788 seconds, hierarchy validation=0.055687515065074 seconds, MAC construction=0.60080592520535 seconds, aggregate validation=0.00783611088991165 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.60080592520535 seconds
+  step 17: beta=0.0112589991, r_rho=0.0025124647, T_list_rebuild=0.771677077, T_update=0.01249131 s, T_moment=0.119398274 s, T_eval=1.83906866 s, L2_error=0.000218045986, relative_error=0.00162211286
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0304488930851221 seconds, hierarchy validation=0.0471284221857786 seconds, MAC construction=0.604272607713938 seconds, aggregate validation=0.00639220699667931 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.604272607713938 seconds
+  step 18: beta=0.00900719925, r_rho=0.002010018, T_list_rebuild=0.743364308, T_update=0.013360275 s, T_moment=0.120919773 s, T_eval=1.77503733 s, L2_error=0.000218199087, relative_error=0.00162331099
+There are total 18517 nodes
+OpenMP maximum threads: 64
+Mapping built: 115032 elements
+Starting parallel processing with at most 64 OpenMP threads for 115032 elements...
+Interaction search: HNL frontier_vertices -> sibling completion -> covered_source_regions -> MAC
+OpenMP threads actually used: 64
+Validated 100656 disjoint source-tree partitions over truncated-domain volume 999.999999998564; max MAC ratio=0.5, near entries min/avg/max=74/305.406473533619/565, far entries min/avg/max=573/2210.79151764425/4202, visited nodes avg=2768.22841161977, near volume min/avg/max=0.398000081380208/3.04304998225314/3.70279947916667; max partition-volume error=1.43549122588738e-09
+Neighbor preprocessing timing: mapping/geometry=0.0358212105929852 seconds, hierarchy validation=0.0507460869848728 seconds, MAC construction=0.643793536350131 seconds, aggregate validation=0.013984676450491 seconds
+Parallel processing completed!
+There are total 115032 hElements
+Filling neighbor_elements uses: 0.643793536350131 seconds
+  step 19: beta=0.0072057594, r_rho=0.00160803932, T_list_rebuild=0.809894666, T_update=0.0162408222 s, T_moment=0.116904408 s, T_eval=1.75155995 s, L2_error=0.000218325167, relative_error=0.00162428933
+
+Reuse experiment summary
+  One-time interaction-list construction: 1.0446663 s
+  Sum of measured per-step list rebuilds: 15.9860262 s
+  Sum of density/moment/evaluation updates: 38.1357185 s
+  Reuse strategy total: 39.1803848 s
+  Rebuild-every-step measured total: 54.1217447 s
+  Measured saved time: 14.9413599 s
+  Measured speedup: 1.38134796x
+  Results written to /home/hxiao/treecode/errorControl/experiment_results/list_reuse_20261109/repeat_3.tsv
+  Note: this is a manufactured-density proof of concept, not a KS-SCF calculation.

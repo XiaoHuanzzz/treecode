@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-11-09T09:53:22.173014+00:00",
+  "domain": "[-20,20]^3",
+  "mesh": "experiment_results/fixed_adaptive_uniform_20261109/D20.mesh",
+  "mesh_sha256": "fd82e77b8c82d8bced78d9378cf0cc1187c1478505ad7e1b09cb11851ef7ec5f",
+  "parameters": {
+    "p": 6,
+    "P": 4,
+    "theta": 0.5,
+    "threads": 128
+  },
+  "cases": [
+    [
+      "coarse",
+      3,
+      "1.0",
+      "0.14"
+    ],
+    [
+      "medium",
+      4,
+      "0.1",
+      "0.018"
+    ],
+    [
+      "fine",
+      5,
+      "0.01",
+      "0.0022"
+    ]
+  ],
+  "repeats": 3,
+  "timing": "three interleaved runs; median reported",
+  "production_error": "volume-weighted leaf-barycenter norm against analytic solution; recorded for diagnostics but not used in the article comparison",
+  "reported_error": "common-target weighted norm against analytic solution; see common_validation.csv",
+  "common_target_rule": "tensor product of 10-point Gauss rules on the seven intervals separated by -20,-2,-1,-0.5,0.5,1,2,20 in each coordinate",
+  "common_target_check": "order-8 to order-10 error change is at most 1.1 percent"
+}

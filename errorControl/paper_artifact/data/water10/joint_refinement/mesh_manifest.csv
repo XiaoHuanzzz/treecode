@@ -1,0 +1,5 @@
+level,N,vertices,decomposed_tetrahedra,cut_polygons,mesh
+1,1536,365,1536,234,/home/hxiao/treecode/errorControl/water10_case/run_1792320676179547287/D.dx
+2,7164,1510,7940,817,/home/hxiao/treecode/errorControl/water10_case/run_1792320680328677807/D.dx
+3,12260,2451,12272,938,/home/hxiao/treecode/errorControl/water10_case/run_1792320694706940224/D.dx
+4,22298,4471,24101,1769,/home/hxiao/treecode/errorControl/water10_case/run_1791966962061750350/D.dx

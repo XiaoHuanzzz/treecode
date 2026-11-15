@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/home/hxiao/treecode/errorControl/tree_reuse",
+    "D.mesh",
+    "2",
+    "6",
+    "4",
+    "0.5",
+    "1",
+    "CPU",
+    "20",
+    "0.8",
+    "0.5",
+    "/home/hxiao/treecode/errorControl/experiment_results/list_reuse_20261109/repeat_3.tsv"
+  ],
+  "threads": 64,
+  "load_average_before": [
+    88.814453125,
+    71.9541015625,
+    64.22412109375
+  ],
+  "started_unix": 1794192580.302927,
+  "returncode": 0,
+  "wall_s": 64.70102539658546,
+  "load_average_after": [
+    101.2509765625,
+    78.54443359375,
+    67.0009765625
+  ]
+}

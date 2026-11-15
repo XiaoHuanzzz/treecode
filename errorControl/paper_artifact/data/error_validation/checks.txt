@@ -1,0 +1,45 @@
+Validation completion checks -- 2026-10-20
+========================================
+
+PASS: 54 completed per-run manifests; all use 128 validation threads.
+PASS: All 19 distinct recorded input/source/binary hashes match current files.
+PASS: 12 component, 18 sampling, 20 molecular, 4 selected-case records.
+PASS: Validation source meshes match the historical production mesh hashes.
+PASS: Molecular production barycenter errors agree with the historical records.
+PASS: Paired direct references have exactly matching targets, weights and
+      analytical values; squared-error identities and triangle bounds hold.
+PASS: All manuscript content before Numerical Experiments is byte-for-byte
+      identical to article_before_validation.tex.
+PASS: All seven original tables retain every parameter and production time.
+PASS: Root results.txt and results_h2o.txt were not modified by this study.
+
+Regression/build checks
+-----------------------
+PASS: Quadrature exactness tests through accuracy 20 on tetrahedron,
+      twin-tetrahedron, and four-tetrahedron reference elements.
+PASS: Cartesian multipole tests through order 20.
+PASS: HNL tests, including 61150 disjoint source covers and comparisons
+      against the original layer constructor.
+PASS: MAC geometry tests, including 7574365 matching acceptance decisions.
+PASS: Production make exact build.
+PASS: Python syntax checks for all four validation/summary scripts.
+PASS: git diff --check for article.tex, compare_exact.cpp, and makefile.
+PASS: LaTeX/BibTeX build; 21-page article.pdf; no undefined references,
+      citations, overfull/underfull boxes, or LaTeX warnings.
+PASS: Visual inspection of the added diagnostic plot and revised convergence
+      figures; crowded single-H2O horizontal-axis labels were corrected.
+
+Limits explicitly retained in the manuscript
+-------------------------------------------
+The sparse 4096-point direct comparison diagnoses finite error vectors.
+It is not a resolved continuous-L2 estimate. Tree minus direct measures
+acceleration of the same quadrature sum, not an exact-moment remainder.
+
+The dense single-center estimates change by less than 2.2% in the last
+target refinement, with less than 1.9% spread across the finest two seeds.
+This is a sensitivity check, not a confidence interval or certified bound.
+
+Single-H2O still has up to 9.45% change between its last two target
+resolutions. The N=7164 selected cluster configuration straddles 1e-4
+across refined target sets. Neither limitation is hidden or interpreted
+as meeting a guaranteed continuous-error tolerance.

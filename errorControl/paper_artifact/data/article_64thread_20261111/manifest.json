@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-11T11:23:50.034734+00:00",
+  "purpose": "replace all 128-thread manuscript production timings",
+  "threads": 64,
+  "cpu_binding": "numactl --physcpubind=0-63 (socket 0)",
+  "openmp": {
+    "OMP_NUM_THREADS": "64",
+    "OMP_DYNAMIC": "FALSE",
+    "OMP_PLACES": "cores",
+    "OMP_PROC_BIND": "close"
+  },
+  "repeats": 3,
+  "tree_exact_sha256": "ceb82387db61fbeb62217b9338b2b74d38c3df771683c1f2538cf22cd555620c",
+  "tree_uniform_sha256": "f75e5cbdada9339007aaebfc316c9bc1b0ed417a96a9d18a2914707cb39ee187",
+  "compare_exact_cpp_sha256": "daea5a9cf21b1eefdc84f76efcc9b42f6192035c949e01385425621f16dd8a1a",
+  "D_mesh_sha256": "4a407c9222ba6d6880cf683f69dbdb0d9661d9b9b54440a2d2b206682c92f866",
+  "D20_mesh_sha256": "fd82e77b8c82d8bced78d9378cf0cc1187c1478505ad7e1b09cb11851ef7ec5f"
+}

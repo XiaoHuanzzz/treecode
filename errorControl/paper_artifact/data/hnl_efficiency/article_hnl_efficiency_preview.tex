@@ -1,0 +1,33 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=22mm]{geometry}
+\usepackage{amsmath,booktabs,graphicx}
+\usepackage{pgfplots}
+\usepgfplotslibrary{groupplots}
+\pgfplotsset{compat=1.18}
+\pgfplotscreateplotcyclelist{journalcycle}{
+  {blue!75!black,solid,thick,mark=*},
+  {orange!90!black,solid,thick,mark=square*},
+  {green!60!black,solid,thick,mark=triangle*},
+  {red!75!black,solid,thick,mark=diamond*}
+}
+\pgfplotsset{journalaxis/.style={
+  width=0.42\textwidth,
+  height=0.30\textwidth,
+  cycle list name=journalcycle,
+  grid=major,
+  grid style={gray!25},
+  tick align=outside,
+  major tick length=2pt,
+  tick label style={font=\sffamily\small},
+  label style={font=\sffamily\small},
+  legend style={font=\sffamily\small,draw=none}
+}}
+\begin{document}
+\section{Numerical Experiments}
+For preview purposes, define the manufactured potential by
+\begin{equation}
+\label{eq:manufactured_solution}
+V_{\mathrm{ex}}(\mathbf x)=\exp(-4\pi x^2-8\pi y^2-12\pi z^2).
+\end{equation}
+\input{article_hnl_efficiency_subsection.tex}
+\end{document}

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the accompanying manuscript."
+title: "A Treecode Algorithm for Hartree Potential Evaluation on Locally Refined Meshes"
+type: software
+version: "arxiv-v1"
+date-released: 2026-11-15
+repository-code: "https://github.com/XiaoHuanzzz/treecode"
+authors:
+  - family-names: Xiao
+    given-names: Huan
+  - family-names: Cui
+    given-names: Zixuan
+  - family-names: Hu
+    given-names: Guanghui
+

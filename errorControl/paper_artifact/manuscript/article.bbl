@@ -1,0 +1,601 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{37}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\url{https://doi.org/#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\bibcommenthead
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem[\protect\citeauthoryear{{\"O}{\u{g}}{\"u}t}{2003}]{Ogut2003}
+\begin{barticle}
+\bauthor{\bsnm{{\"O}{\u{g}}{\"u}t}, \binits{S.}}:
+\batitle{First principles modeling of nanostructures}.
+\bjtitle{Turkish Journal of Physics}
+\bvolume{27}(\bissue{5}),
+\bfpage{443}--\blpage{458}
+(\byear{2003})
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem[\protect\citeauthoryear{Lopata and Govind}{2011}]{LopataGovind2011}
+\begin{barticle}
+\bauthor{\bsnm{Lopata}, \binits{K.}},
+\bauthor{\bsnm{Govind}, \binits{N.}}:
+\batitle{Modeling fast electron dynamics with real-time time-dependent density
+  functional theory: Application to small molecules and chromophores}.
+\bjtitle{Journal of Chemical Theory and Computation}
+\bvolume{7}(\bissue{5}),
+\bfpage{1344}--\blpage{1355}
+(\byear{2011})
+\doiurl{10.1021/ct200137z}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem[\protect\citeauthoryear{Hohenberg and Kohn}{1964}]{Hohenberg1964}
+\begin{barticle}
+\bauthor{\bsnm{Hohenberg}, \binits{P.}},
+\bauthor{\bsnm{Kohn}, \binits{W.}}:
+\batitle{Inhomogeneous electron gas}.
+\bjtitle{Physical Review}
+\bvolume{136}(\bissue{3B}),
+\bfpage{864}--\blpage{871}
+(\byear{1964})
+\doiurl{10.1103/PhysRev.136.B864}
+\end{barticle}
+\endbibitem
+
+%%% 4
+\bibitem[\protect\citeauthoryear{Parr and Yang}{1989}]{Parr1989}
+\begin{bbook}
+\bauthor{\bsnm{Parr}, \binits{R.G.}},
+\bauthor{\bsnm{Yang}, \binits{W.}}:
+\bbtitle{Density-Functional Theory of Atoms and Molecules}.
+\bpublisher{Oxford University Press},
+\blocation{New York}
+(\byear{1989})
+\end{bbook}
+\endbibitem
+
+%%% 5
+\bibitem[\protect\citeauthoryear{Martin}{2004}]{Martin2004}
+\begin{bbook}
+\bauthor{\bsnm{Martin}, \binits{R.M.}}:
+\bbtitle{Electronic Structure: Basic Theory and Practical Methods}.
+\bpublisher{Cambridge University Press},
+\blocation{Cambridge}
+(\byear{2004})
+\end{bbook}
+\endbibitem
+
+%%% 6
+\bibitem[\protect\citeauthoryear{Jones}{2015}]{Jones2015}
+\begin{barticle}
+\bauthor{\bsnm{Jones}, \binits{R.O.}}:
+\batitle{Density functional theory: Its origins, rise to prominence, and
+  future}.
+\bjtitle{Reviews of Modern Physics}
+\bvolume{87}(\bissue{3}),
+\bfpage{897}--\blpage{923}
+(\byear{2015})
+\doiurl{10.1103/RevModPhys.87.897}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem[\protect\citeauthoryear{Kohn and Sham}{1965}]{Kohn1965}
+\begin{barticle}
+\bauthor{\bsnm{Kohn}, \binits{W.}},
+\bauthor{\bsnm{Sham}, \binits{L.J.}}:
+\batitle{Self-consistent equations including exchange and correlation effects}.
+\bjtitle{Physical Review}
+\bvolume{140}(\bissue{4A}),
+\bfpage{1133}--\blpage{1138}
+(\byear{1965})
+\doiurl{10.1103/PhysRev.140.A1133}
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem[\protect\citeauthoryear{Bao et~al.}{2012}]{BaoHuLiu2012}
+\begin{barticle}
+\bauthor{\bsnm{Bao}, \binits{G.}},
+\bauthor{\bsnm{Hu}, \binits{G.}},
+\bauthor{\bsnm{Liu}, \binits{D.}}:
+\batitle{An {$h$}-adaptive finite element solver for the calculations of the
+  electronic structures}.
+\bjtitle{Journal of Computational Physics}
+\bvolume{231}(\bissue{14}),
+\bfpage{4967}--\blpage{4979}
+(\byear{2012})
+\doiurl{10.1016/j.jcp.2012.04.002}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem[\protect\citeauthoryear{Hu et~al.}{2018}]{HuXieXu2018}
+\begin{barticle}
+\bauthor{\bsnm{Hu}, \binits{G.}},
+\bauthor{\bsnm{Xie}, \binits{H.}},
+\bauthor{\bsnm{Xu}, \binits{F.}}:
+\batitle{A multilevel correction adaptive finite element method for
+  {Kohn--Sham} equation}.
+\bjtitle{Journal of Computational Physics}
+\bvolume{355},
+\bfpage{436}--\blpage{449}
+(\byear{2018})
+\doiurl{10.1016/j.jcp.2017.11.024}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem[\protect\citeauthoryear{Yang et~al.}{2021}]{YangShenHu2021}
+\begin{barticle}
+\bauthor{\bsnm{Yang}, \binits{K.}},
+\bauthor{\bsnm{Shen}, \binits{Y.}},
+\bauthor{\bsnm{Hu}, \binits{G.}}:
+\batitle{An {$h$}-adaptive finite element method for {Kohn--Sham} and
+  time-dependent {Kohn--Sham} equations}.
+\bjtitle{Journal on Numerical Methods and Computer Applications}
+\bvolume{42}(\bissue{1}),
+\bfpage{33}--\blpage{55}
+(\byear{2021})
+\doiurl{10.12288/szjs.s2020-0708}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem[\protect\citeauthoryear{Hu et~al.}{2026}]{Hu2026}
+\begin{barticle}
+\bauthor{\bsnm{Hu}, \binits{G.}},
+\bauthor{\bsnm{Xie}, \binits{H.}},
+\bauthor{\bsnm{Xu}, \binits{F.}},
+\bauthor{\bsnm{Zhao}, \binits{G.}}:
+\batitle{A nonnested augmented subspace method for {Kohn--Sham} equation}.
+\bjtitle{Communications in Computational Physics}
+\bvolume{39}(\bissue{2}),
+\bfpage{417}--\blpage{447}
+(\byear{2026})
+\doiurl{10.4208/cicp.OA-2024-0189}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem[\protect\citeauthoryear{Kuang et~al.}{2024}]{Kuang2024}
+\begin{barticle}
+\bauthor{\bsnm{Kuang}, \binits{Y.}},
+\bauthor{\bsnm{Shen}, \binits{Y.}},
+\bauthor{\bsnm{Hu}, \binits{G.}}:
+\batitle{Towards chemical accuracy using a multi-mesh adaptive finite element
+  method in all-electron density functional theory}.
+\bjtitle{Journal of Computational Physics}
+\bvolume{518},
+\bfpage{113312}
+(\byear{2024})
+\doiurl{10.1016/j.jcp.2024.113312}
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem[\protect\citeauthoryear{Becke}{1988}]{Becke1988Multicenter}
+\begin{barticle}
+\bauthor{\bsnm{Becke}, \binits{A.D.}}:
+\batitle{A multicenter numerical integration scheme for polyatomic molecules}.
+\bjtitle{The Journal of Chemical Physics}
+\bvolume{88}(\bissue{4}),
+\bfpage{2547}--\blpage{2553}
+(\byear{1988})
+\doiurl{10.1063/1.454033}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem[\protect\citeauthoryear{Genovese et~al.}{2006}]{Genovese2006}
+\begin{barticle}
+\bauthor{\bsnm{Genovese}, \binits{L.}},
+\bauthor{\bsnm{Deutsch}, \binits{T.}},
+\bauthor{\bsnm{Neelov}, \binits{A.}},
+\bauthor{\bsnm{Goedecker}, \binits{S.}},
+\bauthor{\bsnm{Beylkin}, \binits{G.}}:
+\batitle{Efficient solution of {Poisson's} equation with free boundary
+  conditions}.
+\bjtitle{The Journal of Chemical Physics}
+\bvolume{125}(\bissue{7}),
+\bfpage{074105}
+(\byear{2006})
+\doiurl{10.1063/1.2335442}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem[\protect\citeauthoryear{Darden et~al.}{1993}]{Darden1993}
+\begin{barticle}
+\bauthor{\bsnm{Darden}, \binits{T.}},
+\bauthor{\bsnm{York}, \binits{D.}},
+\bauthor{\bsnm{Pedersen}, \binits{L.}}:
+\batitle{Particle mesh {Ewald}: An {$N\log(N)$} method for {Ewald} sums in
+  large systems}.
+\bjtitle{The Journal of Chemical Physics}
+\bvolume{98}(\bissue{12}),
+\bfpage{10089}--\blpage{10092}
+(\byear{1993})
+\doiurl{10.1063/1.464397}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem[\protect\citeauthoryear{Greengard and Rokhlin}{1987}]{Greengard1987}
+\begin{barticle}
+\bauthor{\bsnm{Greengard}, \binits{L.}},
+\bauthor{\bsnm{Rokhlin}, \binits{V.}}:
+\batitle{A fast algorithm for particle simulations}.
+\bjtitle{Journal of Computational Physics}
+\bvolume{73}(\bissue{2}),
+\bfpage{325}--\blpage{348}
+(\byear{1987})
+\doiurl{10.1016/0021-9991(87)90140-9}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem[\protect\citeauthoryear{Yokota}{2013}]{Yokota2013}
+\begin{barticle}
+\bauthor{\bsnm{Yokota}, \binits{R.}}:
+\batitle{An {FMM} based on dual tree traversal for many-core architectures}.
+\bjtitle{Journal of Algorithms \& Computational Technology}
+\bvolume{7}(\bissue{3}),
+\bfpage{301}--\blpage{324}
+(\byear{2013})
+\doiurl{10.1260/1748-3018.7.3.301}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem[\protect\citeauthoryear{Jiang and
+  Greengard}{2025}]{JiangGreengard2025}
+\begin{barticle}
+\bauthor{\bsnm{Jiang}, \binits{S.}},
+\bauthor{\bsnm{Greengard}, \binits{L.}}:
+\batitle{A dual-space multilevel kernel-splitting framework for discrete and
+  continuous convolution}.
+\bjtitle{Communications on Pure and Applied Mathematics}
+\bvolume{78}(\bissue{5}),
+\bfpage{1086}--\blpage{1143}
+(\byear{2025})
+\doiurl{10.1002/cpa.22240}
+\end{barticle}
+\endbibitem
+
+%%% 19
+\bibitem[\protect\citeauthoryear{Appel}{1985}]{Appel1985}
+\begin{barticle}
+\bauthor{\bsnm{Appel}, \binits{A.W.}}:
+\batitle{An efficient program for many-body simulation}.
+\bjtitle{SIAM Journal on Scientific and Statistical Computing}
+\bvolume{6}(\bissue{1}),
+\bfpage{85}--\blpage{103}
+(\byear{1985})
+\doiurl{10.1137/0906008}
+\end{barticle}
+\endbibitem
+
+%%% 20
+\bibitem[\protect\citeauthoryear{Barnes and Hut}{1986}]{Barnes1986}
+\begin{barticle}
+\bauthor{\bsnm{Barnes}, \binits{J.}},
+\bauthor{\bsnm{Hut}, \binits{P.}}:
+\batitle{A hierarchical {$O(N\log N)$} force-calculation algorithm}.
+\bjtitle{Nature}
+\bvolume{324},
+\bfpage{446}--\blpage{449}
+(\byear{1986})
+\doiurl{10.1038/324446a0}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem[\protect\citeauthoryear{Vaughn et~al.}{2021}]{TAGI2020}
+\begin{barticle}
+\bauthor{\bsnm{Vaughn}, \binits{N.}},
+\bauthor{\bsnm{Gavini}, \binits{V.}},
+\bauthor{\bsnm{Krasny}, \binits{R.}}:
+\batitle{Treecode-accelerated green iteration for {Kohn--Sham} density
+  functional theory}.
+\bjtitle{Journal of Computational Physics}
+\bvolume{430},
+\bfpage{110101}
+(\byear{2021})
+\doiurl{10.1016/j.jcp.2020.110101}
+{\href{https://arxiv.org/abs/2003.01833}{{arXiv:2003.01833}}}
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem[\protect\citeauthoryear{Cui et~al.}{2025}]{Cui}
+\begin{barticle}
+\bauthor{\bsnm{Cui}, \binits{Z.}},
+\bauthor{\bsnm{Yang}, \binits{L.}},
+\bauthor{\bsnm{Wu}, \binits{J.}},
+\bauthor{\bsnm{Hu}, \binits{G.}}:
+\batitle{A treecode algorithm for the {Poisson} equation in a general domain
+  with unstructured grids}.
+\bjtitle{Numerical Algorithms}
+\bvolume{99}(\bissue{2}),
+\bfpage{549}--\blpage{571}
+(\byear{2025})
+\doiurl{10.1007/s11075-024-01888-8}
+\end{barticle}
+\endbibitem
+
+%%% 23
+\bibitem[\protect\citeauthoryear{Cui and Yang}{2025}]{CuiYang2025}
+\begin{barticle}
+\bauthor{\bsnm{Cui}, \binits{Z.}},
+\bauthor{\bsnm{Yang}, \binits{L.}}:
+\batitle{A {$p$}-adaptive treecode solution of the {Poisson} equation in the
+  general domain}.
+\bjtitle{Communications in Computational Physics}
+\bvolume{38}(\bissue{5}),
+\bfpage{1331}--\blpage{1354}
+(\byear{2025})
+\doiurl{10.4208/cicp.OA-2024-0320}
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem[\protect\citeauthoryear{Cai et~al.}{2024}]{AFEPack}
+\begin{barticle}
+\bauthor{\bsnm{Cai}, \binits{Z.}},
+\bauthor{\bsnm{Chen}, \binits{Y.}},
+\bauthor{\bsnm{Di}, \binits{Y.}},
+\bauthor{\bsnm{Hu}, \binits{G.}},
+\bauthor{\bsnm{Li}, \binits{R.}},
+\bauthor{\bsnm{Liu}, \binits{W.}},
+\bauthor{\bsnm{Wang}, \binits{H.}},
+\bauthor{\bsnm{Yang}, \binits{F.}},
+\bauthor{\bsnm{Yao}, \binits{C.}},
+\bauthor{\bsnm{Zhan}, \binits{H.}}:
+\batitle{{AFEPack}: A general-purpose {C++} library for numerical solutions of
+  partial differential equations}.
+\bjtitle{Communications in Computational Physics}
+\bvolume{36}(\bissue{1}),
+\bfpage{274}--\blpage{318}
+(\byear{2024})
+\doiurl{10.4208/cicp.OA-2024-0027}
+\end{barticle}
+\endbibitem
+
+%%% 25
+\bibitem[\protect\citeauthoryear{Cui et~al.}{2025}]{CuiYangHu2025}
+\begin{barticle}
+\bauthor{\bsnm{Cui}, \binits{Z.}},
+\bauthor{\bsnm{Yang}, \binits{L.}},
+\bauthor{\bsnm{Hu}, \binits{G.}}:
+\batitle{Treecode solver for the calculation of demagnetizing field in general
+  domains}.
+\bjtitle{Physical Review E}
+\bvolume{112}(\bissue{5}),
+\bfpage{055305}
+(\byear{2025})
+\doiurl{10.1103/k2xd-r5f8}
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem[\protect\citeauthoryear{Zhu et~al.}{2026}]{Zhu2026}
+\begin{barticle}
+\bauthor{\bsnm{Zhu}, \binits{H.}},
+\bauthor{\bsnm{Yeh}, \binits{C.-N.}},
+\bauthor{\bsnm{Morales}, \binits{M.A.}},
+\bauthor{\bsnm{Greengard}, \binits{L.}},
+\bauthor{\bsnm{Jiang}, \binits{S.}},
+\bauthor{\bsnm{Kaye}, \binits{J.}}:
+\batitle{Interpolative separable density fitting on adaptive real space grids}.
+\bjtitle{Journal of Chemical Theory and Computation}
+\bvolume{22}(\bissue{6}),
+\bfpage{2904}--\blpage{2916}
+(\byear{2026})
+\doiurl{10.1021/acs.jctc.5c02008}
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem[\protect\citeauthoryear{Dehnen}{2000}]{Dehnen2000}
+\begin{barticle}
+\bauthor{\bsnm{Dehnen}, \binits{W.}}:
+\batitle{A very fast and momentum-conserving tree code}.
+\bjtitle{The Astrophysical Journal Letters}
+\bvolume{536}(\bissue{1}),
+\bfpage{39}--\blpage{42}
+(\byear{2000})
+\doiurl{10.1086/312724}
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem[\protect\citeauthoryear{Duan and Krasny}{2001}]{DuanKrasny2001}
+\begin{barticle}
+\bauthor{\bsnm{Duan}, \binits{Z.-H.}},
+\bauthor{\bsnm{Krasny}, \binits{R.}}:
+\batitle{An adaptive treecode for computing nonbonded potential energy in
+  classical molecular systems}.
+\bjtitle{Journal of Computational Chemistry}
+\bvolume{22}(\bissue{2}),
+\bfpage{184}--\blpage{195}
+(\byear{2001})
+\doiurl{10.1002/1096-987X(20010130)22:2<184::AID-JCC6>3.0.CO;2-7}
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem[\protect\citeauthoryear{Beatson and
+  Greengard}{1997}]{BeatsonGreengard1997}
+\begin{bchapter}
+\bauthor{\bsnm{Beatson}, \binits{R.}},
+\bauthor{\bsnm{Greengard}, \binits{L.}}:
+\bctitle{A short course on fast multipole methods}.
+In: \beditor{\bsnm{Ainsworth}, \binits{M.}},
+\beditor{\bsnm{Levesley}, \binits{J.}},
+\beditor{\bsnm{Light}, \binits{W.A.}},
+\beditor{\bsnm{Marletta}, \binits{M.}} (eds.)
+\bbtitle{Wavelets, Multilevel Methods and Elliptic {PDEs}}.
+\bsertitle{Numerical Mathematics and Scientific Computation},
+pp. \bfpage{1}--\blpage{37}.
+\bpublisher{Oxford University Press},
+\blocation{Oxford}
+(\byear{1997})
+\end{bchapter}
+\endbibitem
+
+%%% 30
+\bibitem[\protect\citeauthoryear{Keller et~al.}{2023}]{Keller2023}
+\begin{bchapter}
+\bauthor{\bsnm{Keller}, \binits{S.}},
+\bauthor{\bsnm{Cavelan}, \binits{A.}},
+\bauthor{\bsnm{Cabezon}, \binits{R.}},
+\bauthor{\bsnm{Mayer}, \binits{L.}},
+\bauthor{\bsnm{Ciorba}, \binits{F.M.}}:
+\bctitle{{Cornerstone}: Octree construction algorithms for scalable particle
+  simulations}.
+In: \bbtitle{Proceedings of the Platform for Advanced Scientific Computing
+  Conference}.
+\bsertitle{PASC '23},
+pp. \bfpage{1}--\blpage{10}.
+\bpublisher{Association for Computing Machinery},
+\blocation{New York, NY, USA}
+(\byear{2023}).
+\doiurl{10.1145/3592979.3593417} .
+\bcomment{Article 18}
+\end{bchapter}
+\endbibitem
+
+%%% 31
+\bibitem[\protect\citeauthoryear{Duffy}{1982}]{Duffy1982}
+\begin{barticle}
+\bauthor{\bsnm{Duffy}, \binits{M.G.}}:
+\batitle{Quadrature over a pyramid or cube of integrands with a singularity at
+  a vertex}.
+\bjtitle{SIAM Journal on Numerical Analysis}
+\bvolume{19}(\bissue{6}),
+\bfpage{1260}--\blpage{1262}
+(\byear{1982})
+\doiurl{10.1137/0719090}
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem[\protect\citeauthoryear{Stroud}{1971}]{Stroud1971}
+\begin{bbook}
+\bauthor{\bsnm{Stroud}, \binits{A.H.}}:
+\bbtitle{Approximate Calculation of Multiple Integrals}.
+\bpublisher{Prentice-Hall},
+\blocation{Englewood Cliffs, NJ}
+(\byear{1971})
+\end{bbook}
+\endbibitem
+
+%%% 33
+\bibitem[\protect\citeauthoryear{Davis and
+  Rabinowitz}{1984}]{DavisRabinowitz1984}
+\begin{bbook}
+\bauthor{\bsnm{Davis}, \binits{P.J.}},
+\bauthor{\bsnm{Rabinowitz}, \binits{P.}}:
+\bbtitle{Methods of Numerical Integration},
+\bedition{2}nd edn.
+\bpublisher{Academic Press},
+\blocation{Orlando, FL}
+(\byear{1984})
+\end{bbook}
+\endbibitem
+
+%%% 34
+\bibitem[\protect\citeauthoryear{{Cambridge Cluster
+  Database}}{}]{CambridgeTIP4P10}
+\begin{botherref}
+\oauthor{\bsnm{{Cambridge Cluster Database}}}:
+{TIP4P} water clusters: ten-molecule geometry.
+Accessed 21 October 2026.
+\url{https://www-wales.ch.cam.ac.uk/%7Ewales/CCD/TIP4P/xyz/TIP4P-10.xyz}
+\end{botherref}
+\endbibitem
+
+%%% 35
+\bibitem[\protect\citeauthoryear{Wales and Hodges}{1998}]{WalesHodges1998}
+\begin{barticle}
+\bauthor{\bsnm{Wales}, \binits{D.J.}},
+\bauthor{\bsnm{Hodges}, \binits{M.P.}}:
+\batitle{Global minima of water clusters {$({\mathrm H}_2{\mathrm O})_n$},
+  {$n\leq21$}, described by an empirical potential}.
+\bjtitle{Chemical Physics Letters}
+\bvolume{286},
+\bfpage{65}--\blpage{72}
+(\byear{1998})
+\doiurl{10.1016/S0009-2614(98)00065-7}
+\end{barticle}
+\endbibitem
+
+%%% 36
+\bibitem[\protect\citeauthoryear{Werner}{1994}]{Werner1994}
+\begin{barticle}
+\bauthor{\bsnm{Werner}, \binits{R.A.}}:
+\batitle{The gravitational potential of a homogeneous polyhedron or don't cut
+  corners}.
+\bjtitle{Celestial Mechanics and Dynamical Astronomy}
+\bvolume{59}(\bissue{3}),
+\bfpage{253}--\blpage{278}
+(\byear{1994})
+\doiurl{10.1007/BF00692875}
+\end{barticle}
+\endbibitem
+
+%%% 37
+\bibitem[\protect\citeauthoryear{{National Institute of Standards and
+  Technology}}{}]{NISTDLMFQuadrature}
+\begin{botherref}
+\oauthor{\bsnm{{National Institute of Standards and Technology}}}:
+{NIST Digital Library of Mathematical Functions}: Section 3.5, Quadrature.
+\url{https://dlmf.nist.gov/3.5}.
+Section 3.5(v), Gauss quadrature; accessed 12 October 2026
+\end{botherref}
+\endbibitem
+
+\end{thebibliography}

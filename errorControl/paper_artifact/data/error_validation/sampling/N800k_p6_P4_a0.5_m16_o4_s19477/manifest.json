@@ -1,0 +1,49 @@
+{
+  "completed": true,
+  "finished_utc": "2026-10-20T08:20:43.154860+00:00",
+  "key": {
+    "command": [
+      "/home/hxiao/treecode/errorControl/tree_error_validation",
+      "/home/hxiao/treecode/errorControl/D.mesh",
+      "0",
+      "6",
+      "4",
+      "0.5",
+      "1",
+      "CPU",
+      "0.001",
+      "0.0001",
+      "RADIAL",
+      "6",
+      "0"
+    ],
+    "environment": {
+      "AFEPACK_TEMPLATE_PATH": "/usr/local/include/AFEPack/template/triangle/:/usr/local/include/AFEPack/template/twin_triangle/:/usr/local/include/AFEPack/template/tetrahedron/:/usr/local/include/AFEPack/template/twin_tetrahedron/:/usr/local/include/AFEPack/template/four_tetrahedron/",
+      "ERROR_VALIDATION_DIRECT": "0",
+      "ERROR_VALIDATION_INNER": "16",
+      "ERROR_VALIDATION_OUTER": "4",
+      "ERROR_VALIDATION_SEED": "19477",
+      "OMP_DYNAMIC": "FALSE",
+      "OMP_NUM_THREADS": "128",
+      "OMP_PLACES": "cores",
+      "OMP_PROC_BIND": "close",
+      "TREECODE_CPU_INTERACTIONS": "CACHED",
+      "TREECODE_HNL_MAC_FAMILIES": "0",
+      "TREECODE_HNL_SHARED_TARGETS": "0"
+    },
+    "hashes": {
+      "D.mesh": "4a407c9222ba6d6880cf683f69dbdb0d9661d9b9b54440a2d2b206682c92f866",
+      "cartesian_multipole.hpp": "cf77e50af25e5a4e0f827dfc91843cbc57b17b87d5e6208b675a2e6a3d22b03b",
+      "compare_error_validation.cpp": "850e0672393f9782936369adafe5edf34840c2cfc2d140b5a2df45f2fc7e6646",
+      "compare_exact.cpp": "2f1b07c8c50bf656f1307a9d291103e53eed2dd92e355cdb0c7504e7929ecf96",
+      "error_validation.hpp": "53ad68deb504a349ef2fe247cc1334594a7ba724db00c1aa40f47c1cfa17de0a",
+      "gaussian_test_problem.hpp": "770a98448bc696e7a891e48c1f4a9cba5902a807697d440df354ca8af7701ce5",
+      "hnl_candidates.hpp": "1cfb3fca2be6655a33b471f69ee9d90f0a3ed5013309553a1d9bb3d3e7d6acd4",
+      "hnl_family_mac.hpp": "277f0bca826a8d552f8aa4b03a4f2f58a0ec6fdd6456e545b11945f36e1cb358",
+      "hnl_visualization.hpp": "a8b572fcbfd9c995f481b19078f13d0971e29ae00eceecfef1f39159dcd1f028",
+      "local_quadrature.hpp": "e187269da33496d12618565ed7dfb4f3a48de8da40c90ca1eea47779a4b2bdad",
+      "mac_geometry.hpp": "fe9647c04aedd1ba9e84cc25372f3fcaa7a2ef438bda20ecbd841339c8b3bb02",
+      "tree_error_validation": "39aa8a69da9d7b89d36384715b1e620c141cfb50c2a2b8a977952f7f79cb4ae0"
+    }
+  }
+}

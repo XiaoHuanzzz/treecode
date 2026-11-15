@@ -1,0 +1,39 @@
+{
+  "command": [
+    "/home/hxiao/treecode/errorControl/general_domain/compare_radial_test_domain",
+    "--mode",
+    "solve",
+    "--uniform",
+    "--mesh",
+    "/home/hxiao/treecode/errorControl/radial_shell_meshes/scaling/l_prism.mesh",
+    "--level",
+    "0",
+    "--p",
+    "2",
+    "--P",
+    "4",
+    "--theta",
+    "0.5",
+    "--targets",
+    "/home/hxiao/treecode/errorControl/general_domain/runs/irregular_scaling_20261108/l_prism/targets.csv",
+    "--same-direct",
+    "--leaf-cap",
+    "1000000",
+    "--output",
+    "/home/hxiao/treecode/errorControl/general_domain/runs/irregular_scaling_p2P4_20261109/l_prism/L0"
+  ],
+  "threads": 16,
+  "load_average_before": [
+    59.35546875,
+    56.00390625,
+    56.9365234375
+  ],
+  "started_unix": 1794188588.642513,
+  "returncode": 0,
+  "wall_s": 0.1559514943510294,
+  "load_average_after": [
+    59.35546875,
+    56.00390625,
+    56.9365234375
+  ]
+}

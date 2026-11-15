@@ -1,0 +1,2 @@
+p   P   theta   n_elements  mapping_geometry_time_s   hierarchy_validation_time_s   filling_neighbor_time_s   execution_time_s    L2_error_exact          backend     omp_max_threads   potential_evaluation_time_s   comparison_time_s         omp_threads_used
+6   4   0.5     954208      0.679929044097662         0.677828645333648             11.9203686565161          52.2201407942921    0.00241980885102029     CPU         128               20.4116043839604              20.4886555150151          128

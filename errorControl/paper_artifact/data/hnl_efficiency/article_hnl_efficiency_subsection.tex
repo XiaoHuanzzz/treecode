@@ -1,0 +1,108 @@
+\subsection{HNL Construction and List Reuse}
+\label{sec:hnl_measured_cost}
+
+We first compare HNL with direct recursive MAC traversal from the source-tree
+roots. Both methods use the same adaptive meshes, targets, MAC, list storage,
+and OpenMP schedule; only the source search differs. The parameters are
+$(p,P,\theta)=(6,4,0.5)$ and 16 CPU threads. Table~\ref{tab:hnl_ablation}
+reports medians of three interleaved runs. HNL time includes construction of
+the level-indexed vertex incidence, candidate generation, cover
+materialization, and MAC classification. Validation is excluded from both
+timings, although every run is checked for complete, nonoverlapping source
+coverage and MAC compliance.
+
+\begin{table}[!htbp]
+\centering
+\caption{HNL and direct root-recursive MAC construction. Visit counts are
+averages per target; $M_{\rm HNL}$ is the number of cover-materialization
+visits.}
+\label{tab:hnl_ablation}
+\small
+\setlength{\tabcolsep}{4.2pt}
+\begin{tabular}{rrrrrrr}
+\toprule
+$N$ & \multicolumn{2}{c}{$T_{\rm list}$ (s)} &
+\multicolumn{2}{c}{MAC visits} & reduction & $M_{\rm HNL}$\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+& HNL & root & HNL & root & (\%) &\\
+\midrule
+$10\,328$  & 0.127 & 0.060 & $1\,856$ & $1\,916$ & 3.15 & 507\\
+$34\,464$  & 0.701 & 0.249 & $2\,801$ & $2\,901$ & 3.46 & 861\\
+$100\,656$ & 2.075 & 0.723 & $2\,768$ & $2\,868$ & 3.47 & 856\\
+$191\,544$ & 5.491 & 1.724 & $3\,549$ & $3\,683$ & 3.64 & $1\,235$\\
+$822\,720$ & 25.131 & 7.735 & $3\,723$ & $3\,863$ & 3.62 & $1\,317$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+HNL reduces MAC visits by $3.1$--$3.6\%$, but candidate generation and
+materialization prevent a reduction in total list-construction time. The near
+lists are identical; the far-list counts differ by at most $0.62\%$ because
+clusters may be accepted at different levels. On the $N=100\,656$ mesh, the
+HNL and root partitions give absolute errors $2.1886\times10^{-4}$ and
+$2.2434\times10^{-4}$, respectively. We therefore use HNL as the
+topology-based construction in this implementation, without claiming a speed
+advantage over direct root traversal or an asymptotic bound for its
+construction cost.
+
+The lists depend on the mesh, targets, and $\theta$, but not on the density.
+We test reuse on the $N=100\,656$ mesh with 64 CPU threads using
+\begin{equation}
+V_k=V_0+\beta_k V_1,
+\qquad \rho_k=-\frac{1}{4\pi}\Delta V_k,
+\qquad \beta_k=0.5(0.8)^k,
+\label{eq:hnl_reuse_sequence}
+\end{equation}
+where $V_0$ is given by Eq.~\eqref{eq:manufactured_solution} and
+$V_1=\exp[-6\pi(x-0.70)^2-5\pi(y+0.35)^2-9\pi(z-0.20)^2]$.
+One path rebuilds the lists at every update; the other retains the initial
+lists and updates only density samples, moments, and the potential.
+
+\begin{figure}[!htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}
+\begin{groupplot}[
+  group style={group size=2 by 1, horizontal sep=0.55cm},
+  journalaxis,
+  width=0.48\textwidth,
+  height=0.36\textwidth,
+  xmin=0, xmax=21,
+  xtick={1,2,5,10,20}
+]
+\nextgroupplot[
+  xlabel={number of density updates},
+  ylabel={cumulative time (s)},
+  ymin=0, ymax=58,
+  legend style={at={(0.03,0.97)},anchor=north west,draw=none}
+]
+\addplot+ coordinates {
+  (1,2.798) (2,5.570) (5,13.684) (10,27.245) (20,53.934)
+};
+\addlegendentry{Rebuild}
+\addplot+ coordinates {
+  (1,2.950) (2,4.857) (5,10.612) (10,20.193) (20,38.988)
+};
+\addlegendentry{Reuse}
+
+\nextgroupplot[
+  xlabel={number of density updates},
+  ylabel={speedup from reuse},
+  ymin=0.95, ymax=1.42,
+  ytick pos=right,yticklabel pos=right
+]
+\addplot+ coordinates {
+  (1,0.991) (2,1.154) (5,1.290) (10,1.349) (20,1.381)
+};
+\addplot[dashed,black,mark=none] coordinates {(1,1) (20,1)};
+\end{groupplot}
+\end{tikzpicture}%
+}
+\caption{Cumulative time with list reconstruction and reuse (left), and the
+resulting speedup (right). Values are medians of three runs.}
+\label{fig:hnl_list_reuse}
+\end{figure}
+
+Reuse saves 25.9\% after ten updates and 27.6\% after twenty updates, giving
+a twenty-update speedup of 1.381. This manufactured sequence demonstrates
+amortization on a fixed mesh; it is not a complete Kohn--Sham SCF test.

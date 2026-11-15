@@ -1,0 +1,13 @@
+scale,mesh_type,target_rule_order,target_count,target_weight_sum,N,p,P,theta,E_common_abs,E_common_rel,exact_norm_common,validation_time_s,log
+coarse,adaptive,8,175616,64000.0,12064,6,4,0.5,5.64792871135,43.3506772214,0.130284670814,2.18595937081,experiment_results/fixed_adaptive_uniform_20261109/common_validation/coarse_adaptive_q8/console.log
+coarse,uniform,8,175616,64000.0,12288,6,4,0.5,5.64793810698,43.3507493376,0.130284670814,2.22569782473,experiment_results/fixed_adaptive_uniform_20261109/common_validation/coarse_uniform_q8/console.log
+medium,adaptive,8,175616,64000.0,95616,6,4,0.5,0.115995414246,0.890322810206,0.130284670814,3.3132023029,experiment_results/fixed_adaptive_uniform_20261109/common_validation/medium_adaptive_q8/console.log
+medium,uniform,8,175616,64000.0,98304,6,4,0.5,1.88894133189,14.4985693258,0.130284670814,3.09621159732,experiment_results/fixed_adaptive_uniform_20261109/common_validation/medium_uniform_q8/console.log
+fine,adaptive,8,175616,64000.0,771088,6,4,0.5,0.0123169898861,0.0945390567377,0.130284670814,4.95668360032,experiment_results/fixed_adaptive_uniform_20261109/common_validation/fine_adaptive_q8/console.log
+fine,uniform,8,175616,64000.0,786432,6,4,0.5,0.115958122746,0.890036579298,0.130284670814,4.31421342865,experiment_results/fixed_adaptive_uniform_20261109/common_validation/fine_uniform_q8/console.log
+coarse,adaptive,10,343000,64000.0,12064,6,4,0.5,5.64744468999,42.2368731015,0.133708872729,4.30142682604,experiment_results/fixed_adaptive_uniform_20261109/common_validation/coarse_adaptive_q10/console.log
+coarse,uniform,10,343000,64000.0,12288,6,4,0.5,5.64745466989,42.2369477406,0.133708872729,4.44721809775,experiment_results/fixed_adaptive_uniform_20261109/common_validation/coarse_uniform_q10/console.log
+medium,adaptive,10,343000,64000.0,95616,6,4,0.5,0.116284595829,0.869684961483,0.133708872729,6.38824235834,experiment_results/fixed_adaptive_uniform_20261109/common_validation/medium_adaptive_q10/console.log
+medium,uniform,10,343000,64000.0,98304,6,4,0.5,1.88914479074,14.1287915468,0.133708872729,5.99459472112,experiment_results/fixed_adaptive_uniform_20261109/common_validation/medium_uniform_q10/console.log
+fine,adaptive,10,343000,64000.0,771088,6,4,0.5,0.0121949628682,0.0912053375318,0.133708872729,8.85997171327,experiment_results/fixed_adaptive_uniform_20261109/common_validation/fine_adaptive_q10/console.log
+fine,uniform,10,343000,64000.0,786432,6,4,0.5,0.116252308095,0.869443483612,0.133708872729,8.26706131734,experiment_results/fixed_adaptive_uniform_20261109/common_validation/fine_uniform_q10/console.log

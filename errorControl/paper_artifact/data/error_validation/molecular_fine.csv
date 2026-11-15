@@ -1,0 +1,5 @@
+model,level,N,p,P,theta,grid,targets,E_relative,validation_seconds,validation_threads,mesh_sha256,log
+single_h2o,1,12106,4,2,0.5,128,2515456,0.244809082536963,17.5020630639046,128,1cf3a4e527d6914140ba7a02727cdba9b0e150ecd4f99e1d9b999ee7414b431a,article_error_validation/molecular/single_level1_m128/console.log
+single_h2o,2,13380,6,3,0.5,128,2515456,0.0295721976196081,36.1747244019061,128,02a706fc1780bb24f9906208153769e3d0e47ae4bd02c09cd60cd074b9a923bb,article_error_validation/molecular/single_level2_m128/console.log
+single_h2o,3,16040,8,4,0.5,128,2515456,0.0113116471695591,65.3186291567981,128,ace177276cde72c39fb16e247034e5e0e49fca8264c452eaaf3fcc87ce7ec953,article_error_validation/molecular/single_level3_m128/console.log
+single_h2o,4,25252,10,6,0.5,128,2515456,0.00712738687604635,133.654677052051,128,28e2af5515a2e69f45286d8bd04785fed506d01b536c289c0e63be1dfed12feb,article_error_validation/molecular/single_level4_m128/console.log
